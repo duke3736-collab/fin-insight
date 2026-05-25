@@ -42,16 +42,15 @@ export default function Home() {
             </p>
           </Link>
 
-          {/* Placeholders for future calculators */}
-          <div className="flex flex-col p-6 bg-white rounded-2xl border border-slate-200 opacity-60 grayscale cursor-not-allowed">
-            <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4">
+          <Link href="/calculators/deposit" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-sky-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               📊
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2">증권사 수수료 비교</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-sky-600 transition-colors">예적금 최고 금리 찾기</h3>
             <p className="text-sm text-slate-500">
-              이벤트 적용 시 가장 유리한 증권사 찾기 (업데이트 예정)
+              실시간 1금융권·저축은행 정기예금, 파킹통장 최고 금리 비교
             </p>
-          </div>
+          </Link>
 
           <Link href="/calculators/severance" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
