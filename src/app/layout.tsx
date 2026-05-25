@@ -55,7 +55,8 @@ export default function RootLayout({
             <nav className="hidden sm:flex gap-6">
               <Link href="/#investment" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">투자 계산기</Link>
               <Link href="/#life" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">생활 계산기</Link>
-              <Link href="/" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">매매일지</Link>
+              <Link href="/daily-report" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">데일리 리포트</Link>
+              <Link href="/calculators/goal-tracker" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">1억 모으기</Link>
             </nav>
             <button className="sm:hidden p-2 text-slate-600">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12h16"/><path d="M4 6h16"/><path d="M4 18h16"/></svg>
