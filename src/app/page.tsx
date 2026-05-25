@@ -72,6 +72,16 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/apartment-roi" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              📈
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">아파트 투자 수익률 계산기</h3>
+            <p className="text-sm text-slate-500">
+              매매가, 부대비용, 임대수익을 종합한 내 진짜 투자 수익률 확인
+            </p>
+          </Link>
+
         </div>
       </section>
 
