@@ -60,9 +60,7 @@ export default function KakaoShareButton({ title, description, kakaoAppKey }: Ka
     <>
       <Script 
         src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" 
-        integrity="sha384-TiCmbV5Aunb040125032n8lD3Gg92aLqHl+3UqD4IeR8gZl0D8N1b8Y7VwW1c2qS" 
-        crossOrigin="anonymous"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         onLoad={() => {
           if (window.Kakao && !window.Kakao.isInitialized() && kakaoAppKey) {
             window.Kakao.init(kakaoAppKey);

@@ -25,10 +25,10 @@ export default function Home() {
         <div className="absolute right-20 -top-20 w-48 h-48 bg-blue-400/20 rounded-full blur-3xl"></div>
       </section>
 
-      {/* Calculators Grid */}
-      <section>
+      {/* Investment Calculators Grid */}
+      <section id="investment">
         <h2 className="text-2xl font-extrabold text-slate-800 mb-6 flex items-center gap-2">
-          <span>📈 투자 계산기 모음</span>
+          <span>📈 투자 계산기</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           
@@ -39,26 +39,6 @@ export default function Home() {
             <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors">2026 ISA 실전 절세 계산기</h3>
             <p className="text-sm text-slate-500">
               일반형/서민형 비과세 한도 적용 및 연금 전환 추가 세액공제까지 완벽 계산.
-            </p>
-          </Link>
-
-          <Link href="/calculators/deposit" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-sky-500 hover:shadow-xl hover:-translate-y-1 transition-all">
-            <div className="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-              📊
-            </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-sky-600 transition-colors">예적금 최고 금리 찾기</h3>
-            <p className="text-sm text-slate-500">
-              실시간 1금융권·저축은행 정기예금, 파킹통장 최고 금리 비교
-            </p>
-          </Link>
-
-          <Link href="/calculators/severance" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all">
-            <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
-              💼
-            </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">퇴직금/IRP 계산기</h3>
-            <p className="text-sm text-slate-500">
-              근속연수에 따른 1일 평균임금 기반 예상 퇴직금 산정 및 IRP 세금 혜택 안내
             </p>
           </Link>
 
@@ -89,6 +69,36 @@ export default function Home() {
             <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">부동산 취득세 계산기</h3>
             <p className="text-sm text-slate-500">
               주택 수, 조정대상지역, 전용면적까지 완벽 반영한 정확한 세액 산출
+            </p>
+          </Link>
+
+        </div>
+      </section>
+
+      {/* Life Calculators Grid */}
+      <section id="life">
+        <h2 className="text-2xl font-extrabold text-slate-800 mb-6 flex items-center gap-2">
+          <span>☕ 생활 계산기</span>
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <Link href="/calculators/deposit" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-sky-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              📊
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-sky-600 transition-colors">예적금 최고 금리 찾기</h3>
+            <p className="text-sm text-slate-500">
+              실시간 1금융권·저축은행 정기예금, 파킹통장 최고 금리 비교
+            </p>
+          </Link>
+
+          <Link href="/calculators/severance" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              💼
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">퇴직금/IRP 계산기</h3>
+            <p className="text-sm text-slate-500">
+              근속연수에 따른 1일 평균임금 기반 예상 퇴직금 산정 및 IRP 세금 혜택 안내
             </p>
           </Link>
 
