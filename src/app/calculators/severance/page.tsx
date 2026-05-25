@@ -301,7 +301,7 @@ export default function SeveranceCalculatorPage() {
               <KakaoShareButton 
                 title="퇴직금/IRP 실전 계산기" 
                 description={`내 예상 퇴직금은 ₩${formatNumber(severancePay)} 입니다!`} 
-                kakaoAppKey="" 
+                kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
               />
             </div>
           </div>

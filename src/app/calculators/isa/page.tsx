@@ -211,7 +211,7 @@ export default function IsaCalculatorPage() {
             <KakaoShareButton 
               title="ISA 실전 절세 계산기" 
               description={`ISA 계좌 활용 시 예상 절세액은 ${formatNumber(totalSaved)}원 입니다!`} 
-              kakaoAppKey="" 
+              kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
             />
           </div>
 
