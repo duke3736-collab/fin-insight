@@ -177,7 +177,7 @@ export default function Home() {
             <div className="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏝️
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-cyan-600 transition-colors">전국 여름 물놀이 거지맵</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-cyan-600 transition-colors">전국 여름 물놀이 갓성비맵</h3>
             <p className="text-sm text-slate-500">
               공짜 바닥분수, 5천원 이하 가성비 수영장, 취사가능 계곡까지 지도로 한눈에!
             </p>
