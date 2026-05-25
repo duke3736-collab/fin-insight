@@ -53,13 +53,13 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-col p-6 bg-white rounded-2xl border border-slate-200 opacity-60 grayscale cursor-not-allowed">
-            <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4">
+          <Link href="/calculators/severance" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               💼
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2">퇴직금/IRP 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">퇴직금/IRP 계산기</h3>
             <p className="text-sm text-slate-500">
-              근속연수에 따른 퇴직금과 세금, IRP 수령 시 혜택 비교 (업데이트 예정)
+              근속연수에 따른 1일 평균임금 기반 예상 퇴직금 산정 및 IRP 세금 혜택 안내
             </p>
           </div>
 
