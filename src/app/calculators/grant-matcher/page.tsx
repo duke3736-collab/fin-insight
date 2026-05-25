@@ -44,7 +44,7 @@ export default function SubsidyFinderPage() {
                   const line = lines[i].trim();
                   if (!line) continue;
                   
-                  const values = [];
+                  const values: string[] = [];
                   let current = '';
                   let inQuotes = false;
                   for (let char of line) {
