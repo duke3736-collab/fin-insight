@@ -72,6 +72,16 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/growth-fund" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🛡️
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors">국민성장펀드 수익률/방어</h3>
+            <p className="text-sm text-slate-500">
+              정부의 20% 손실 방어 효과 시뮬레이션 및 ISA 비과세 계좌 수익금 산출
+            </p>
+          </Link>
+
         </div>
       </section>
     </div>
