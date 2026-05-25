@@ -62,6 +62,16 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/broker-fee" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-purple-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-purple-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              📊
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-purple-600 transition-colors">증권사 수수료/세금 비교</h3>
+            <p className="text-sm text-slate-500">
+              국내주식 거래세, 해외주식 양도세, 증권사별 최적의 거래 수수료 찾기
+            </p>
+          </Link>
+
         </div>
       </section>
     </div>
