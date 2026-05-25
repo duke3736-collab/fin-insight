@@ -82,6 +82,16 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/real-estate-tax" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🏠
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">부동산 취득세 계산기</h3>
+            <p className="text-sm text-slate-500">
+              주택 수, 조정대상지역, 전용면적까지 완벽 반영한 정확한 세액 산출
+            </p>
+          </Link>
+
         </div>
       </section>
     </div>
