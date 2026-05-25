@@ -363,7 +363,7 @@ export default function BrokerFeeCalculatorPage() {
                 <div>
                   <label className="block text-sm font-bold text-slate-200 mb-2">매수금액</label>
                   <div className="relative">
-                    <input type="text" value={buyAmountStr} onChange={handleCurrencyChange(setBuyAmountStr)} className="w-full bg-slate-800/80 border border-slate-600 rounded-xl py-3 px-4 text-white font-bold outline-none focus:border-indigo-400 text-right" />
+                    <input type="text" value={buyAmountStr} onChange={handleCurrencyChange(setBuyAmountStr)} className="w-full bg-slate-800/80 border border-slate-600 rounded-xl py-3 pl-4 pr-12 text-white font-bold outline-none focus:border-indigo-400 text-right" />
                     <span className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-sm">원</span>
                   </div>
                   <div className="flex gap-2 mt-3">
@@ -429,7 +429,7 @@ export default function BrokerFeeCalculatorPage() {
                     <button className="text-xs text-indigo-400 hover:text-indigo-300 font-bold" onClick={toggleCurrency}>원화 ↔ USD 전환</button>
                   </div>
                   <div className="relative">
-                    <input type="text" value={osBuyAmountStr} onChange={handleCurrencyChange(setOsBuyAmountStr)} className="w-full bg-slate-800/80 border border-slate-600 rounded-xl py-3 px-4 text-white font-bold outline-none focus:border-indigo-400 text-right" />
+                    <input type="text" value={osBuyAmountStr} onChange={handleCurrencyChange(setOsBuyAmountStr)} className="w-full bg-slate-800/80 border border-slate-600 rounded-xl py-3 pl-4 pr-12 text-white font-bold outline-none focus:border-indigo-400 text-right" />
                     <span className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-400 font-bold text-sm">{osCurrencyUSD ? 'USD' : '원'}</span>
                   </div>
                   <p className="text-xs text-slate-500 mt-2 text-right">기준 환율: 1 USD = 1,380원</p>

@@ -105,7 +105,7 @@ export default function GrowthFundCalculatorPage() {
                 type="text" 
                 value={amountStr} 
                 onChange={handleAmountChange} 
-                className="w-full bg-slate-800/80 border border-slate-600 rounded-xl py-4 px-5 text-white text-lg font-bold outline-none focus:border-emerald-400 text-right transition-colors" 
+                className="w-full bg-slate-800/80 border border-slate-600 rounded-xl py-4 pl-5 pr-14 text-white text-lg font-bold outline-none focus:border-emerald-400 text-right transition-colors" 
               />
               <span className="absolute right-5 top-1/2 -translate-y-1/2 text-slate-400 font-bold">원</span>
             </div>
