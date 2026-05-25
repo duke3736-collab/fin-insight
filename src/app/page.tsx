@@ -60,7 +60,7 @@ export default function Home() {
             <p className="text-sm text-slate-500">
               근속연수에 따른 1일 평균임금 기반 예상 퇴직금 산정 및 IRP 세금 혜택 안내
             </p>
-          </div>
+          </Link>
 
         </div>
       </section>
