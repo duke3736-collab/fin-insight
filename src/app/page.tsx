@@ -172,7 +172,7 @@ export default function Home() {
             </p>
           </Link>
 
-          <Link href="/maps/summer-water" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-cyan-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+          <a href="https://map.weknews.com" target="_blank" rel="noopener noreferrer" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-cyan-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-red-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">HOT</div>
             <div className="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏝️
@@ -181,7 +181,7 @@ export default function Home() {
             <p className="text-sm text-slate-500">
               공짜 바닥분수, 5천원 이하 가성비 수영장, 취사가능 계곡까지 지도로 한눈에!
             </p>
-          </Link>
+          </a>
 
           <Link href="/calculators/goal-tracker" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
