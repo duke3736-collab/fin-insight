@@ -137,7 +137,7 @@ export default function SeveranceCalculatorPage() {
             <h1 className="text-2xl md:text-3xl font-extrabold text-white mb-2 tracking-tight">
               퇴직금 실전 계산기
             </h1>
-            <p className="text-slate-400 text-sm">
+            <p className="text-slate-200 text-sm font-medium">
               1일 평균임금 기반 예상 퇴직금 및 IRP 전환 세금 혜택
             </p>
           </div>
@@ -149,23 +149,23 @@ export default function SeveranceCalculatorPage() {
               
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-xs font-semibold text-slate-400 mb-2 uppercase tracking-wider">입사일</label>
+                  <label className="block text-xs font-bold text-slate-200 mb-2 uppercase tracking-wider">입사일</label>
                   <input 
                     type="date" 
                     value={joinDate}
                     onChange={(e) => setJoinDate(e.target.value)}
-                    className="w-full bg-slate-800/50 border border-slate-700 rounded-xl p-3 text-white outline-none focus:border-violet-500 transition-colors"
+                    className="w-full bg-slate-800/80 border border-slate-600 rounded-xl p-3 text-white font-bold outline-none focus:border-violet-400 transition-colors"
                   />
                 </div>
                 <div>
-                  <label className="block text-xs font-semibold text-slate-400 mb-2 uppercase tracking-wider">퇴사일</label>
+                  <label className="block text-xs font-bold text-slate-200 mb-2 uppercase tracking-wider">퇴사일</label>
                   <input 
                     type="date" 
                     value={leaveDate}
                     onChange={(e) => setLeaveDate(e.target.value)}
-                    className="w-full bg-slate-800/50 border border-slate-700 rounded-xl p-3 text-white outline-none focus:border-violet-500 transition-colors"
+                    className="w-full bg-slate-800/80 border border-slate-600 rounded-xl p-3 text-white font-bold outline-none focus:border-violet-400 transition-colors"
                   />
-                  <p className="text-[10px] text-slate-500 mt-1">마지막 근무일의 다음 날</p>
+                  <p className="text-[10px] text-slate-400 mt-1">마지막 근무일의 다음 날</p>
                 </div>
               </div>
 
@@ -176,58 +176,58 @@ export default function SeveranceCalculatorPage() {
               )}
 
               <div className="space-y-4 pt-4 border-t border-slate-700/50">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider">퇴직 전 3개월 임금 총액</h3>
+                <h3 className="text-xs font-bold text-slate-200 uppercase tracking-wider">퇴직 전 3개월 임금 총액</h3>
                 
                 <div>
-                  <label className="block text-sm text-slate-300 mb-2">기본급 총액 (3개월 합산)</label>
+                  <label className="block text-sm font-bold text-slate-200 mb-2">기본급 총액 (3개월 합산)</label>
                   <div className="relative">
-                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">₩</span>
+                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-300 font-bold">₩</span>
                     <input 
                       type="text" 
                       value={basicPayStr}
                       onChange={handleCurrencyChange(setBasicPayStr)}
                       placeholder="9,000,000"
-                      className="w-full bg-slate-800/50 border border-slate-700 rounded-xl py-3 pl-10 pr-10 text-white font-semibold outline-none focus:border-violet-500 text-right transition-colors"
+                      className="w-full bg-slate-800/80 border border-slate-600 rounded-xl py-3 pl-10 pr-10 text-white font-bold outline-none focus:border-violet-400 text-right transition-colors"
                     />
-                    <span className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 text-sm">원</span>
+                    <span className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-300 font-bold text-sm">원</span>
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-sm text-slate-300 mb-2">기타수당 총액 (3개월 합산)</label>
+                  <label className="block text-sm font-bold text-slate-200 mb-2">기타수당 총액 (3개월 합산)</label>
                   <div className="relative">
-                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500">₩</span>
+                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-300 font-bold">₩</span>
                     <input 
                       type="text" 
                       value={otherPayStr}
                       onChange={handleCurrencyChange(setOtherPayStr)}
-                      className="w-full bg-slate-800/50 border border-slate-700 rounded-xl py-3 pl-10 pr-10 text-white font-semibold outline-none focus:border-violet-500 text-right transition-colors"
+                      className="w-full bg-slate-800/80 border border-slate-600 rounded-xl py-3 pl-10 pr-10 text-white font-bold outline-none focus:border-violet-400 text-right transition-colors"
                     />
-                    <span className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-500 text-sm">원</span>
+                    <span className="absolute right-4 top-1/2 -translate-y-1/2 text-slate-300 font-bold text-sm">원</span>
                   </div>
                 </div>
               </div>
 
               <div className="space-y-4 pt-4 border-t border-slate-700/50">
-                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider">연간 상여금 및 연차수당</h3>
+                <h3 className="text-xs font-bold text-slate-200 uppercase tracking-wider">연간 상여금 및 연차수당</h3>
                 
                 <div className="grid grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm text-slate-300 mb-2">연간 상여금</label>
+                    <label className="block text-sm font-bold text-slate-200 mb-2">연간 상여금</label>
                     <input 
                       type="text" 
                       value={annualBonusStr}
                       onChange={handleCurrencyChange(setAnnualBonusStr)}
-                      className="w-full bg-slate-800/50 border border-slate-700 rounded-xl p-3 text-white font-semibold outline-none focus:border-violet-500 text-right"
+                      className="w-full bg-slate-800/80 border border-slate-600 rounded-xl p-3 text-white font-bold outline-none focus:border-violet-400 text-right"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm text-slate-300 mb-2">미사용 연차수당</label>
+                    <label className="block text-sm font-bold text-slate-200 mb-2">미사용 연차수당</label>
                     <input 
                       type="text" 
                       value={leavePayStr}
                       onChange={handleCurrencyChange(setLeavePayStr)}
-                      className="w-full bg-slate-800/50 border border-slate-700 rounded-xl p-3 text-white font-semibold outline-none focus:border-violet-500 text-right"
+                      className="w-full bg-slate-800/80 border border-slate-600 rounded-xl p-3 text-white font-bold outline-none focus:border-violet-400 text-right"
                     />
                   </div>
                 </div>
@@ -264,24 +264,24 @@ export default function SeveranceCalculatorPage() {
               <div className="bg-slate-800/40 border border-slate-700/50 rounded-2xl p-5">
                 <h3 className="text-sm font-bold text-white mb-4">산정 상세 내역</h3>
                 <div className="space-y-3">
-                  <div className="flex justify-between items-center text-sm">
-                    <span className="text-slate-400">산정 대상 기간 (3개월)</span>
-                    <span className="text-white font-medium">{formatNumber(targetPeriodDays)}일</span>
+                  <div className="flex justify-between items-center text-sm font-medium">
+                    <span className="text-slate-300">산정 대상 기간 (3개월)</span>
+                    <span className="text-white font-bold">{formatNumber(targetPeriodDays)}일</span>
                   </div>
-                  <div className="flex justify-between items-center text-sm">
-                    <span className="text-slate-400">3개월간 임금 총액</span>
+                  <div className="flex justify-between items-center text-sm font-medium">
+                    <span className="text-slate-300">3개월간 임금 총액</span>
                     <span className="text-white font-bold">₩{formatNumber(totalTargetWage)}</span>
                   </div>
-                  <div className="pl-4 space-y-1 mt-2 border-l-2 border-slate-700 text-xs">
-                    <div className="flex justify-between items-center text-slate-500">
+                  <div className="pl-4 space-y-1 mt-2 border-l-2 border-slate-600 text-xs font-medium">
+                    <div className="flex justify-between items-center text-slate-300">
                       <span>기본급+기타수당</span>
                       <span>₩{formatNumber(totalBasePay)}</span>
                     </div>
-                    <div className="flex justify-between items-center text-slate-500">
+                    <div className="flex justify-between items-center text-slate-300">
                       <span>상여금 가산 (3/12)</span>
                       <span>₩{formatNumber(bonusCalc)}</span>
                     </div>
-                    <div className="flex justify-between items-center text-slate-500">
+                    <div className="flex justify-between items-center text-slate-300">
                       <span>연차수당 가산 (3/12)</span>
                       <span>₩{formatNumber(leaveCalc)}</span>
                     </div>
@@ -294,7 +294,7 @@ export default function SeveranceCalculatorPage() {
                 <span className="text-xl font-black text-emerald-400">₩{formatNumber(avgDailyWage)}</span>
               </div>
               
-              <div className="text-center text-[11px] text-slate-500 bg-slate-800/30 p-3 rounded-lg border border-slate-800/50">
+              <div className="text-center text-xs font-bold text-slate-300 bg-slate-800/50 p-3 rounded-lg border border-slate-700">
                 계산 공식: 1일 평균임금 × 30일 × (총 재직일수 ÷ 365)
               </div>
 
