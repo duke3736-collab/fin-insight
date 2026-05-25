@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import AdSenseBanner from "@/components/AdSenseBanner";
+import KakaoShareButton from "@/components/KakaoShareButton";
 
 export default function SeveranceCalculatorPage() {
   const [joinDate, setJoinDate] = useState("");
@@ -114,6 +116,8 @@ export default function SeveranceCalculatorPage() {
         <span>›</span>
         <span className="text-slate-800">퇴직금/IRP 계산기</span>
       </nav>
+
+      <AdSenseBanner dataAdSlot="4122383889" className="!bg-slate-900 !border-slate-800" />
 
       {/* Dark Theme Calculator Container */}
       <div className="bg-slate-900 rounded-[2rem] shadow-2xl border border-slate-800 overflow-hidden relative">
@@ -293,6 +297,12 @@ export default function SeveranceCalculatorPage() {
               <div className="text-center text-[11px] text-slate-500 bg-slate-800/30 p-3 rounded-lg border border-slate-800/50">
                 계산 공식: 1일 평균임금 × 30일 × (총 재직일수 ÷ 365)
               </div>
+
+              <KakaoShareButton 
+                title="퇴직금/IRP 실전 계산기" 
+                description={`내 예상 퇴직금은 ₩${formatNumber(severancePay)} 입니다!`} 
+                kakaoAppKey="" 
+              />
             </div>
           </div>
         </div>

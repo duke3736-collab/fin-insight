@@ -2,6 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import AdSenseBanner from "@/components/AdSenseBanner";
+import KakaoShareButton from "@/components/KakaoShareButton";
 
 export default function IsaCalculatorPage() {
   const [currentType, setCurrentType] = useState<"normal" | "seomin">("normal");
@@ -72,6 +74,8 @@ export default function IsaCalculatorPage() {
         <span>›</span>
         <span className="text-slate-800">ISA 절세 계산기</span>
       </nav>
+
+      <AdSenseBanner dataAdSlot="4122383889" />
 
       {/* Calculator Container */}
       <div className="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden">
@@ -203,6 +207,12 @@ export default function IsaCalculatorPage() {
                 <span className="text-4xl font-black text-emerald-400">{formatNumber(totalSaved)}원</span>
               </div>
             </div>
+
+            <KakaoShareButton 
+              title="ISA 실전 절세 계산기" 
+              description={`ISA 계좌 활용 시 예상 절세액은 ${formatNumber(totalSaved)}원 입니다!`} 
+              kakaoAppKey="" 
+            />
           </div>
 
         </div>
