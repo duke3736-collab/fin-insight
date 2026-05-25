@@ -43,6 +43,12 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
+        <Script
+          src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js"
+          integrity="sha384-TiCmbV5Aunb040125032n8lD3Gg92aLqHl+3UqD4IeR8gZl0D8N1b8Y7VwW1c2qS"
+          crossOrigin="anonymous"
+          strategy="beforeInteractive"
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50 text-slate-900 min-h-screen flex flex-col`}>
         {/* Header */}
