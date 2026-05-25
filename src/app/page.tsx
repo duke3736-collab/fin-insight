@@ -92,6 +92,16 @@ export default function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/salary" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all">
+            <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              💰
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">연봉 실수령액 계산기</h3>
+            <p className="text-sm text-slate-500">
+              2026년 기준 4대보험, 소득세 완벽 반영 및 직관적인 공제 비율 제공
+            </p>
+          </Link>
+
         </div>
       </section>
     </div>
