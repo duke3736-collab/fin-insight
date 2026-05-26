@@ -1,39 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import Parser from "rss-parser";
+
 import AdSenseBanner from "@/components/AdSenseBanner";
 import PWAInstallButton from "@/components/PWAInstallButton";
 
 export const revalidate = 3600; // Revalidate every hour
 
-type NewsItem = {
-  title: string;
-  link: string;
-  pubDate: string;
-  source: string;
-};
-
-const parser = new Parser({
-  customFields: {
-    item: ['source']
-  }
-});
-
-async function fetchGoogleNews(query: string): Promise<NewsItem[]> {
-  try {
-    const feed = await parser.parseURL(`https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=ko&gl=KR&ceid=KR:ko`);
-    
-    return feed.items.slice(0, 5).map(item => ({
-      title: item.title?.split(' - ')[0] || item.title || "",
-      link: item.link || "",
-      pubDate: item.pubDate ? new Date(item.pubDate).toLocaleDateString('ko-KR', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : "",
-      source: item.source || item.title?.split(' - ').pop() || "뉴스",
-    }));
-  } catch (error) {
-    console.error(`Error fetching news for ${query}:`, error);
-    return [];
-  }
-}
+import { fetchGoogleNews } from "@/lib/rss";
 
 const CATEGORIES = [
   { id: "economy", title: "📈 경제/금융", query: "경제 OR 금융" },

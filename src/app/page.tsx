@@ -1,6 +1,11 @@
 import Link from "next/link";
+import { fetchGoogleNews } from "@/lib/rss";
 
-export default function Home() {
+export const revalidate = 3600; // 1 hour
+
+export default async function Home() {
+  const latestNews = await fetchGoogleNews("경제 OR 주식 OR 가상화폐", 3);
+
   return (
     <div className="space-y-12">
       {/* Hero Section */}
@@ -16,15 +21,28 @@ export default function Home() {
           <p className="text-slate-600 text-lg mb-8">
             세금부터 수수료, 연금 전환 혜택까지. 스마트한 투자의 시작은 정확한 계산입니다.
           </p>
-          <div className="flex flex-col sm:flex-row items-center gap-4">
-            <Link href="/daily-report" className="w-full sm:w-auto inline-flex justify-center items-center gap-2 px-6 py-4 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-extrabold rounded-2xl transition-all shadow-xl hover:shadow-2xl hover:-translate-y-1">
-              📰 오늘의 뉴스 브리핑 보기
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
-            </Link>
-            <Link href="/calculators/isa" className="w-full sm:w-auto inline-flex justify-center items-center gap-2 px-6 py-4 bg-white hover:bg-slate-50 text-slate-800 border-2 border-slate-200 font-bold rounded-2xl transition-all hover:-translate-y-1">
-              🧮 ISA 절세액 계산하기
-            </Link>
-          </div>
+
+          <Link href="/daily-report" className="block mt-8 bg-white/60 hover:bg-white backdrop-blur-sm border border-emerald-200/60 rounded-2xl p-5 shadow-md transition-all hover:shadow-xl hover:-translate-y-1 group relative overflow-hidden w-full max-w-md">
+            <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-indigo-500/10 to-blue-500/10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-500"></div>
+            <div className="flex items-center justify-between mb-3 relative z-10">
+              <div className="flex items-center gap-2">
+                <span className="text-xl animate-pulse">📰</span>
+                <h3 className="font-extrabold text-slate-800 text-lg">오늘의 핵심 핫이슈</h3>
+              </div>
+              <span className="text-xs font-bold text-indigo-600 bg-indigo-50 px-3 py-1.5 rounded-full group-hover:bg-indigo-100 transition-colors flex items-center gap-1">전체보기 <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+            </div>
+            <ul className="space-y-2.5 relative z-10">
+              {latestNews.map((item, i) => (
+                <li key={i} className="flex items-center gap-2 text-slate-600 text-[15px] font-medium leading-snug">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0"></span>
+                  <span className="truncate group-hover:text-slate-900 transition-colors">{item.title}</span>
+                </li>
+              ))}
+              {latestNews.length === 0 && (
+                <li className="text-sm text-slate-400">최신 뉴스를 불러오는 중입니다...</li>
+              )}
+            </ul>
+          </Link>
         </div>
         <div className="absolute -right-20 -bottom-20 w-64 h-64 bg-emerald-400/20 rounded-full blur-3xl"></div>
         <div className="absolute right-20 -top-20 w-48 h-48 bg-blue-400/20 rounded-full blur-3xl"></div>
