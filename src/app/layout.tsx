@@ -55,8 +55,11 @@ export default function RootLayout({
             <nav className="hidden sm:flex gap-6">
               <Link href="/#investment" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">투자 계산</Link>
               <Link href="/#daily" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">일상 계산</Link>
-              <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-sky-600 hover:text-sky-700 transition-colors bg-sky-50 px-3 py-1 rounded-full border border-sky-100 flex items-center gap-1">
-                🏝️ 씨맵(Sea-Map)
+              <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" className="relative group inline-flex items-center justify-center">
+                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-sky-500 rounded-full blur opacity-40 group-hover:opacity-100 transition duration-300 animate-pulse"></div>
+                <span className="relative text-sm font-bold bg-white text-sky-700 px-4 py-1.5 rounded-full border border-sky-200 shadow-sm flex items-center gap-1 group-hover:bg-sky-50 transition-colors">
+                  🏝️ 전국 물놀이 지도
+                </span>
               </a>
               <Link href="/daily-report" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">데일리 리포트</Link>
               <Link href="/calculators/goal-tracker" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">1억 모으기</Link>
