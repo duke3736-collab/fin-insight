@@ -161,6 +161,15 @@ export default function GoldPricePage() {
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
       />
 
+      <article className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm mt-12 space-y-8">
+        <section>
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="2026년 금시세 현황 및 전망 분석" url="https://weknews.com/2026%eb%85%84-%ea%b8%88%ec%8b%9c%ec%84%b8/" />
+            <WordPressLink title="국민성장펀드 가입 방법 및 혜택 완벽 분석" url="https://weknews.com/%ea%b5%ad%eb%af%bc%ec%84%b1%ec%9e%a5%ed%8e%80%eb%93%9c-%ea%b0%80%ec%9e%85-%eb%b0%a9%eb%b2%95/" />
+          </div>
+        </section>
+      </article>
+
     </div>
   );
 }
