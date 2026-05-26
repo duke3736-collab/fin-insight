@@ -49,19 +49,19 @@ export default function PWAInstallButton() {
   };
 
   return (
-    <div className="relative mt-8 flex flex-col items-center">
+    <div className="relative mt-2 mb-10 flex flex-col items-center w-full max-w-md mx-auto px-4 md:px-0">
       <button 
         onClick={handleInstallClick}
-        className="group inline-flex flex-col sm:flex-row items-center gap-4 bg-white/10 hover:bg-white/20 active:bg-white/30 backdrop-blur-md border border-white/20 p-4 rounded-2xl cursor-pointer transition-all hover:scale-[1.02] active:scale-[0.98]"
+        className="w-full group inline-flex flex-col sm:flex-row items-center justify-center gap-4 bg-gradient-to-r from-indigo-500 to-blue-500 hover:from-indigo-600 hover:to-blue-600 active:from-indigo-700 active:to-blue-700 text-white shadow-xl hover:shadow-2xl p-5 rounded-2xl cursor-pointer transition-all hover:-translate-y-1 active:translate-y-0"
       >
-        <div className="text-4xl group-hover:animate-bounce">📱</div>
+        <div className="text-4xl group-hover:animate-bounce drop-shadow-md">📱</div>
         <div className="text-left">
-          <div className="text-white font-bold flex items-center gap-2">
+          <div className="text-white font-extrabold flex items-center gap-2 text-lg">
             스마트폰 앱으로 더 편하게 보세요!
-            <span className="bg-indigo-500 text-xs px-2 py-0.5 rounded-full shadow-sm animate-pulse">설치하기</span>
+            <span className="bg-white text-indigo-600 text-xs px-2.5 py-1 rounded-full shadow-md animate-pulse font-bold">설치하기</span>
           </div>
-          <div className="text-indigo-200 text-sm mt-1">
-            이 버튼을 눌러 홈 화면에 앱을 바로 추가하세요.
+          <div className="text-indigo-100 text-sm mt-1.5 font-medium">
+            이 버튼을 눌러 1초 만에 홈 화면에 추가하세요
           </div>
         </div>
       </button>

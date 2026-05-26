@@ -44,14 +44,14 @@ export default async function Home() {
               )}
             </ul>
           </Link>
+          
+          <div className="mt-8">
+            <PWAInstallButton />
+          </div>
         </div>
         <div className="absolute -right-20 -bottom-20 w-64 h-64 bg-emerald-400/20 rounded-full blur-3xl"></div>
         <div className="absolute right-20 -top-20 w-48 h-48 bg-blue-400/20 rounded-full blur-3xl"></div>
       </section>
-
-      <div className="flex justify-center -mt-4 mb-8">
-        <PWAInstallButton />
-      </div>
 
       {/* Investment Calculators Grid */}
       <section id="investment">
