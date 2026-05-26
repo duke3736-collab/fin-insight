@@ -368,10 +368,11 @@ export default function SalaryCalculatorPage() {
             특히 연말정산을 대비하여 평소에 신용카드/체크카드 사용 비율을 조절하거나, 연금저축펀드 및 IRP(개인형 퇴직연금)를 통해 세액공제 혜택을 미리 챙겨두시는 것이 유리합니다.
           </p>
           
-          <WordPressLink 
-            title="연말정산 소득공제 vs 세액공제 100% 환급받는 완벽 정리 (2026년 최신)" 
-            url="https://weknews.com/" 
-          />
+          
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="연말정산 소득공제 vs 세액공제 100% 환급받는 완벽 정리" url="https://weknews.com/year-end-tax-settlement" />
+            <WordPressLink title="청년내일채움공제 만기 수령액 및 소득세 감면 신청서" url="https://weknews.com/youth-tax-reduction" />
+          </div>
         </section>
       </article>
     </div>

@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 export default function YieldSnapshotPage() {
   const [stockName, setStockName] = useState<string>("엔비디아 (NVIDIA)");

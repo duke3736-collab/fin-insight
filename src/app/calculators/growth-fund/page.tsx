@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 export default function GrowthFundCalculatorPage() {
   const [amountStr, setAmountStr] = useState("10,000,000");
@@ -218,6 +219,11 @@ export default function GrowthFundCalculatorPage() {
             하지만 <strong>ISA(개인종합자산관리계좌)</strong>를 통해 투자하면 발생한 수익에 대해 비과세(또는 분리과세) 혜택을 받을 수 있어 절세 효과를 극대화할 수 있습니다. 
             위 계산기에서 계좌 유형을 변경하여 실질적으로 수령하는 최종 금액의 차이를 확인해 보세요.
           </p>
+        
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="복리의 마법을 극대화하는 인덱스 펀드 적립식 투자법" url="https://weknews.com/compound-interest-fund" />
+            <WordPressLink title="나스닥 S&P500 ETF 투자 수익률 10년 백테스트 결과" url="https://weknews.com/snp500-etf-backtest" />
+          </div>
         </section>
       </article>
     </div>

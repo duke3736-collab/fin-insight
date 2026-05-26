@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 const DOMESTIC_BROKERS = [
   { name: "토스증권", rate: 0.015, event: "평생 우대 0.0036%", eventRate: 0.0036396, eventOn: true, color: "blue", url: "https://tossinvest.com" },
@@ -505,6 +506,11 @@ export default function BrokerFeeCalculatorPage() {
             이때 기본적으로 <strong>250만 원을 공제</strong>해 주며, 그 250만 원을 초과하는 금액에 대해서만 지방소득세를 포함하여 <strong>22%의 세금</strong>이 부과됩니다. 
             따라서 연말에 손실 난 종목을 매도하여 수익금을 250만 원 이하로 맞추는 절세 전략이 매우 중요합니다.
           </p>
+        
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="부동산 중개수수료 반값으로 깎는 협상 기술 실전편" url="https://weknews.com/broker-fee-negotiation" />
+            <WordPressLink title="전월세 계약 전 반드시 확인해야 할 특약사항 5가지" url="https://weknews.com/real-estate-contract-tips" />
+          </div>
         </section>
       </article>
     </div>

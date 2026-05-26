@@ -4,6 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 interface RateItem {
   bank: string;
@@ -402,6 +403,11 @@ export default function DepositCalculatorPage() {
             <br/><br/>
             한 금융회사당 <strong>원금과 소정의 이자를 합쳐 1인당 최고 5,000만 원까지</strong>는 해당 은행이 파산하더라도 예금보험공사(새마을금고/신협은 자체 중앙회)에서 지급을 보장해 줍니다. 따라서 예치금이 5,000만 원을 초과한다면, 여러 저축은행에 4,500만 원씩 <strong>분산 예치(풍차돌리기)</strong> 하는 것이 가장 안전하고 스마트한 투자 방법입니다.
           </p>
+        
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="2026년 예적금 특판 정보 및 최고금리 은행 리스트" url="https://weknews.com/high-interest-deposit" />
+            <WordPressLink title="풍차돌리기 적금 100% 성공하는 세팅 방법론" url="https://weknews.com/saving-windmill-method" />
+          </div>
         </section>
       </article>
 

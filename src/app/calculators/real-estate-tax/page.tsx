@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 export default function RealEstateTaxCalculatorPage() {
   const [propertyType, setPropertyType] = useState<"residential" | "commercial" | "land" | "farm">("residential");
@@ -329,6 +330,11 @@ export default function RealEstateTaxCalculatorPage() {
           <p className="text-slate-700 leading-relaxed text-[15px]">
             본 계산기는 <strong>일반 유상취득(매매)</strong>을 기준으로 세액을 산출합니다. 증여나 상속으로 인한 취득, 또는 생애최초 주택구입 취득세 감면 등 각종 <strong>특례 조항은 미반영</strong>되어 있습니다. 실제 납부할 세액은 계약일자, 취득원인 및 개인별 특례 요건에 따라 달라질 수 있으므로, 최종 납부 시에는 반드시 세무 전문가와 상담하시기 바랍니다.
           </p>
+        
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="2026년 종합부동산세 과세 기준 및 1세대 1주택 특례" url="https://weknews.com/2026-comprehensive-tax" />
+            <WordPressLink title="재산세 납부 달 완벽 대비: 신용카드 무이자 할부 및 혜택" url="https://weknews.com/property-tax-card-benefit" />
+          </div>
         </section>
       </article>
     </div>

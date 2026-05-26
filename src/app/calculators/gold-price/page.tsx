@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 const API_URL = 'https://api.gold-api.com/price/XAU/KRW';
 const TROY_OUNCE_TO_GRAM = 31.1034768;

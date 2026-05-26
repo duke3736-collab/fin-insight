@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 export default function SeveranceCalculatorPage() {
   const [joinDate, setJoinDate] = useState("");
@@ -370,6 +371,11 @@ export default function SeveranceCalculatorPage() {
               <h3 className="font-extrabold text-slate-900 text-lg flex items-center gap-2 mb-2"><span className="text-violet-500">Q.</span> 실 수령액은 왜 계산기와 다를까요?</h3>
               <p className="text-slate-700 text-base leading-relaxed pl-7">본 계산기는 근로기준법에 따른 법정 최저 기준의 '세전' 퇴직금을 계산합니다. 실제 지급 시에는 퇴직소득세와 지방소득세가 원천징수되며, 회사마다 퇴직위로금 등 누진제가 적용되거나 단체협약에 의한 계산 방식 차이가 존재할 수 있습니다.</p>
             </div>
+          </div>
+        
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="퇴직금 IRP 계좌 이체 시 퇴직소득세 30% 감면 받는 법" url="https://weknews.com/irp-severance-pay" />
+            <WordPressLink title="퇴사 전 반드시 확인해야 할 퇴직금 계산 시 평균임금 기준" url="https://weknews.com/average-wage-calculation" />
           </div>
         </section>
       </article>

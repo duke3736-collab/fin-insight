@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 export default function HealthInsuranceCalculatorPage() {
   const [activeTab, setActiveTab] = useState<"employee" | "regional">("employee");

@@ -4,7 +4,6 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
-import WordPressLink from "@/components/WordPressLink";
 
 import {
   Chart as ChartJS,
@@ -14,6 +13,7 @@ import {
   Tooltip,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
+import WordPressLink from "@/components/WordPressLink";
 
 ChartJS.register(
   CategoryScale,
@@ -390,11 +390,7 @@ export default function IsaCalculatorPage() {
           </div>
           
           <div className="mt-8">
-            <WordPressLink 
-              title="중개형 ISA 만기일 설정 방법 변경 팁 3분 정리" 
-              url="https://weknews.com/%ec%a4%91%ea%b0%9c%ed%98%95-isa-%eb%a7%8c%ea%b8%b0%ec%9d%bc-%ec%84%a4%ec%a0%95/" 
-            />
-          </div>
+            </div>
         </div>
       </section>
 
@@ -456,7 +452,12 @@ export default function IsaCalculatorPage() {
             <a href="https://weknews.com" target="_blank" className="block w-full text-center py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 text-xs font-bold rounded-xl transition-all">이벤트 확인하기</a>
           </div>
         </div>
-      </section>
+      
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="중개형 ISA 만기일 설정 방법 변경 팁 3분 정리" url="https://weknews.com/%ec%a4%91%ea%b0%9c%ed%98%95-isa-%eb%a7%8c%ea%b8%b0%ec%9d%bc-%ec%84%a4%ec%a0%95/" />
+            <WordPressLink title="ISA 비과세 한도 2배 서민형 전환 조건 및 증빙 서류 발급" url="https://weknews.com/isa-seomin-type" />
+          </div>
+        </section>
 
       {/* Footer */}
       <footer className="text-center py-10 border-t border-slate-200 text-xs text-slate-400 space-y-2">
