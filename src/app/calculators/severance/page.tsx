@@ -299,7 +299,7 @@ export default function SeveranceCalculatorPage() {
               </div>
 
               <div className="mt-6 mb-4">
-                  <a href="https://link.coupang.com/a/YOUR_COUPANG_LINK_N_JOB" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-violet-600 to-fuchsia-600 rounded-2xl p-5 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all group relative overflow-hidden">
+                  <a href="https://link.coupang.com/a/d3FwqPcRt6" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-violet-600 to-fuchsia-600 rounded-2xl p-5 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all group relative overflow-hidden">
                       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-3">
                           <div className="flex items-center gap-3">
                               <span className="text-3xl group-hover:scale-110 transition-transform">💰</span>

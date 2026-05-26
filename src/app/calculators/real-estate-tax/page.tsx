@@ -296,7 +296,7 @@ export default function RealEstateTaxCalculatorPage() {
           </div>
 
           <div className="mt-8 mb-4">
-              <a href="https://link.coupang.com/a/YOUR_COUPANG_LINK_REAL_ESTATE" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-5 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all group relative overflow-hidden">
+              <a href="https://link.coupang.com/a/d3Fm5zRXxs" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-5 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all group relative overflow-hidden">
                   <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-3">
                       <div className="flex items-center gap-3">
                           <span className="text-3xl group-hover:scale-110 transition-transform">🏠</span>

@@ -107,7 +107,7 @@ export default function Home() {
 
       {/* SPONSOR / AFFILIATE BANNER */}
       <div className="pb-8">
-        <a href="https://link.coupang.com/a/YOUR_COUPANG_LINK_BOOKS" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl p-6 md:p-8 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all group overflow-hidden relative">
+        <a href="https://link.coupang.com/a/d3Fm5zRXxs" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl p-6 md:p-8 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all group overflow-hidden relative">
             <div className="absolute -right-10 -top-10 w-40 h-40 bg-white/20 rounded-full blur-2xl group-hover:bg-white/30 transition-colors"></div>
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8">
                 <div className="flex items-center gap-4">
