@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 // 2026 rates
 const RATES = {
@@ -366,6 +367,11 @@ export default function SalaryCalculatorPage() {
             <br/><br/>
             특히 연말정산을 대비하여 평소에 신용카드/체크카드 사용 비율을 조절하거나, 연금저축펀드 및 IRP(개인형 퇴직연금)를 통해 세액공제 혜택을 미리 챙겨두시는 것이 유리합니다.
           </p>
+          
+          <WordPressLink 
+            title="연말정산 소득공제 vs 세액공제 100% 환급받는 완벽 정리 (2026년 최신)" 
+            url="https://weknews.com/" 
+          />
         </section>
       </article>
     </div>
