@@ -455,7 +455,7 @@ export default function IsaCalculatorPage() {
       
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
             <WordPressLink title="중개형 ISA 만기일 설정 방법 변경 팁 3분 정리" url="https://weknews.com/%ec%a4%91%ea%b0%9c%ed%98%95-isa-%eb%a7%8c%ea%b8%b0%ec%9d%bc-%ec%84%a4%ec%a0%95/" />
-            <WordPressLink title="ISA 비과세 한도 2배 서민형 전환 조건 및 증빙 서류 발급" url="https://weknews.com/isa-seomin-type" />
+            <WordPressLink title="ISA 비과세 한도 2배 서민형 전환 조건 및 증빙 서류 발급" url="https://weknews.com/?s=ISA%20%EC%84%9C%EB%AF%BC%ED%98%95" />
           </div>
         </section>
 

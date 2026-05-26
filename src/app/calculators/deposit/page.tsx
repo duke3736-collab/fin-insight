@@ -405,8 +405,8 @@ export default function DepositCalculatorPage() {
           </p>
         
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="2026년 예적금 특판 정보 및 최고금리 은행 리스트" url="https://weknews.com/high-interest-deposit" />
-            <WordPressLink title="풍차돌리기 적금 100% 성공하는 세팅 방법론" url="https://weknews.com/saving-windmill-method" />
+            <WordPressLink title="2026년 예적금 특판 정보 및 최고금리 은행 리스트" url="https://weknews.com/?s=%EC%98%88%EC%A0%81%EA%B8%88%20%ED%8A%B9%ED%8C%90" />
+            <WordPressLink title="풍차돌리기 적금 100% 성공하는 세팅 방법론" url="https://weknews.com/?s=%ED%92%8D%EC%B0%A8%EB%8F%8C%EB%A6%AC%EA%B8%B0%20%EC%A0%81%EA%B8%88" />
           </div>
         </section>
       </article>

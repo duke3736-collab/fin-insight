@@ -221,8 +221,8 @@ export default function GrowthFundCalculatorPage() {
           </p>
         
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="복리의 마법을 극대화하는 인덱스 펀드 적립식 투자법" url="https://weknews.com/compound-interest-fund" />
-            <WordPressLink title="나스닥 S&P500 ETF 투자 수익률 10년 백테스트 결과" url="https://weknews.com/snp500-etf-backtest" />
+            <WordPressLink title="복리의 마법을 극대화하는 인덱스 펀드 적립식 투자법" url="https://weknews.com/?s=%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%ED%8E%80%EB%93%9C" />
+            <WordPressLink title="나스닥 S&P500 ETF 투자 수익률 10년 백테스트 결과" url="https://weknews.com/?s=S%26P500%20ETF" />
           </div>
         </section>
       </article>

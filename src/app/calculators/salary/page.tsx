@@ -370,8 +370,8 @@ export default function SalaryCalculatorPage() {
           
           
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="연말정산 소득공제 vs 세액공제 100% 환급받는 완벽 정리" url="https://weknews.com/year-end-tax-settlement" />
-            <WordPressLink title="청년내일채움공제 만기 수령액 및 소득세 감면 신청서" url="https://weknews.com/youth-tax-reduction" />
+            <WordPressLink title="연말정산 소득공제 vs 세액공제 100% 환급받는 완벽 정리" url="https://weknews.com/?s=%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0" />
+            <WordPressLink title="청년내일채움공제 만기 수령액 및 소득세 감면 신청서" url="https://weknews.com/?s=%EC%B2%AD%EB%85%84%EB%82%B4%EC%9D%BC%EC%B1%84%EC%9B%80%EA%B3%B5%EC%A0%9C" />
           </div>
         </section>
       </article>

@@ -508,8 +508,8 @@ export default function BrokerFeeCalculatorPage() {
           </p>
         
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="부동산 중개수수료 반값으로 깎는 협상 기술 실전편" url="https://weknews.com/broker-fee-negotiation" />
-            <WordPressLink title="전월세 계약 전 반드시 확인해야 할 특약사항 5가지" url="https://weknews.com/real-estate-contract-tips" />
+            <WordPressLink title="부동산 중개수수료 반값으로 깎는 협상 기술 실전편" url="https://weknews.com/?s=%EB%B6%80%EB%8F%99%EC%82%B0%20%EC%A4%91%EA%B0%9C%EC%88%98%EC%88%98%EB%A3%8C" />
+            <WordPressLink title="전월세 계약 전 반드시 확인해야 할 특약사항 5가지" url="https://weknews.com/?s=%EC%A0%84%EC%9B%94%EC%84%B8%20%ED%8A%B9%EC%95%BD%EC%82%AC%ED%95%AD" />
           </div>
         </section>
       </article>

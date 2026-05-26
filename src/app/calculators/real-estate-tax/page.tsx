@@ -332,8 +332,8 @@ export default function RealEstateTaxCalculatorPage() {
           </p>
         
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="2026년 종합부동산세 과세 기준 및 1세대 1주택 특례" url="https://weknews.com/2026-comprehensive-tax" />
-            <WordPressLink title="재산세 납부 달 완벽 대비: 신용카드 무이자 할부 및 혜택" url="https://weknews.com/property-tax-card-benefit" />
+            <WordPressLink title="2026년 종합부동산세 과세 기준 및 1세대 1주택 특례" url="https://weknews.com/?s=%EC%A2%85%ED%95%A9%EB%B6%80%EB%8F%99%EC%82%B0%EC%84%B8" />
+            <WordPressLink title="재산세 납부 달 완벽 대비: 신용카드 무이자 할부 및 혜택" url="https://weknews.com/?s=%EC%9E%AC%EC%82%B0%EC%84%B8%20%EB%82%A9%EB%B6%80" />
           </div>
         </section>
       </article>
