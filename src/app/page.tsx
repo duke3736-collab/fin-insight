@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { fetchGoogleNews } from "@/lib/rss";
+import PWAInstallButton from "@/components/PWAInstallButton";
 
 export const revalidate = 3600; // 1 hour
 
@@ -47,6 +48,10 @@ export default async function Home() {
         <div className="absolute -right-20 -bottom-20 w-64 h-64 bg-emerald-400/20 rounded-full blur-3xl"></div>
         <div className="absolute right-20 -top-20 w-48 h-48 bg-blue-400/20 rounded-full blur-3xl"></div>
       </section>
+
+      <div className="flex justify-center -mt-4 mb-8">
+        <PWAInstallButton />
+      </div>
 
       {/* Investment Calculators Grid */}
       <section id="investment">
