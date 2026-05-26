@@ -38,7 +38,7 @@ export default function HealthInsuranceCalculatorPage() {
   const RATE_CARE = 0.1314; // 13.14% of health insurance
 
   const getPropertyScore = (amount: number) => {
-    let net = amount - 100000000; // 1억 기본공제
+    const net = amount - 100000000; // 1억 기본공제
     if (net <= 0) return 0;
     if (net <= 4500000) return 22;
     if (net <= 9000000) return 30;
@@ -63,13 +63,13 @@ export default function HealthInsuranceCalculatorPage() {
         if (empSalary > 0 || empExtraBiz > 0 || empExtraPension > 0 || empExtraEarned > 0 || empExtraRental > 0) hasInput = true;
         
         // Base premium
-        let baseHealth = Math.floor(empSalary * RATE_HEALTH);
+        const baseHealth = Math.floor(empSalary * RATE_HEALTH);
         
         // Extra income premium (> 20M)
-        let extraIncomeTotal = empExtraBiz + empExtraRental + ((empExtraPension + empExtraEarned) * 0.5);
+        const extraIncomeTotal = empExtraBiz + empExtraRental + ((empExtraPension + empExtraEarned) * 0.5);
         let extraHealth = 0;
         if (extraIncomeTotal > 20000000) {
-            let monthlyExtraTarget = Math.floor((extraIncomeTotal - 20000000) / 12);
+            const monthlyExtraTarget = Math.floor((extraIncomeTotal - 20000000) / 12);
             extraHealth = Math.floor(monthlyExtraTarget * RATE_HEALTH);
         }
         
@@ -78,8 +78,8 @@ export default function HealthInsuranceCalculatorPage() {
         ownerHealth = baseHealth - Math.floor(baseHealth / 2);
         
         // Care premium
-        let baseCare = Math.floor(baseHealth * RATE_CARE);
-        let extraCare = Math.floor(extraHealth * RATE_CARE);
+        const baseCare = Math.floor(baseHealth * RATE_CARE);
+        const extraCare = Math.floor(extraHealth * RATE_CARE);
         totalCare = baseCare + extraCare;
         workerCare = Math.floor(baseCare / 2) + extraCare;
         ownerCare = baseCare - Math.floor(baseCare / 2);
@@ -93,7 +93,7 @@ export default function HealthInsuranceCalculatorPage() {
         
         // Income calculation
         const taxableIncome = regIncBiz + regIncRental + ((regIncPension + regIncEarned) * 0.5);
-        let monthlyIncomePremium = Math.floor((taxableIncome * RATE_HEALTH) / 12);
+        const monthlyIncomePremium = Math.floor((taxableIncome * RATE_HEALTH) / 12);
         
         // Property calculation
         const rentVal = (regPropJeonse + regPropMonthlyDep + (regPropMonthlyRent * 40)) * 0.3;
@@ -102,7 +102,7 @@ export default function HealthInsuranceCalculatorPage() {
         totalProp = Math.max(0, totalProp - regDebt); // Debt deduction
         
         const propScore = getPropertyScore(totalProp);
-        let monthlyPropPremium = Math.floor(propScore * 208.4);
+        const monthlyPropPremium = Math.floor(propScore * 208.4);
         
         totalHealth = monthlyIncomePremium + monthlyPropPremium;
         
