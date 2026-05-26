@@ -123,6 +123,18 @@ export default function ZzantechCalculatorPage() {
                 <div className="bg-indigo-500/10 border border-indigo-500/20 text-indigo-300 text-center p-4 rounded-xl text-sm font-medium">
                     {result.verdict}
                 </div>
+
+                {/* Synergy Banner with Sea-Map */}
+                <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" className="mt-6 block bg-gradient-to-r from-sky-500 to-blue-600 rounded-xl p-5 hover:scale-[1.02] transition-transform shadow-lg group">
+                    <div className="flex items-center gap-4">
+                        <div className="text-4xl group-hover:animate-bounce">🏖️</div>
+                        <div className="text-left">
+                            <span className="block text-sky-100 text-xs font-bold mb-1">짠테크의 시작은 생활비 방어부터!</span>
+                            <span className="block text-white text-base md:text-lg font-black">이번 주말 물놀이, 돈 안 들이고 공짜로 가볼까요?</span>
+                            <span className="block text-sky-200 text-sm mt-1">씨맵(Sea-Map)에서 내 주변 무료 바닥분수/계곡 찾기 👉</span>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
       </div>
