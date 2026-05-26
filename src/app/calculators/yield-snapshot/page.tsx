@@ -145,6 +145,16 @@ export default function YieldSnapshotPage() {
         description="내 주식 수익률을 예쁜 카드로 만들어 자랑해보세요!" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
       />
+
+      <article className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm mt-12 space-y-8">
+        <section>
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="삼성전자 배당금 세금 및 실수령액 계산" url="https://weknews.com/%ec%82%bc%ec%84%b1%ec%a0%84%ec%9e%90-%eb%b0%b0%eb%8b%b9%ea%b8%88-%ec%84%b8%ea%b8%88/" />
+            <WordPressLink title="미성년자 해외주식 거래 방법 가이드" url="https://weknews.com/%eb%af%b8%ec%84%b1%eb%85%84%ec%9e%90-%ed%95%b4%ec%99%b8%ec%a3%bc%ec%8b%9d-%ea%b1%b0%eb%9e%98/" />
+          </div>
+        </section>
+      </article>
+
     </div>
   );
 }
