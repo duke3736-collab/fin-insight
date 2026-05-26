@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Script from "next/script";
+import Header from "@/components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -49,30 +50,7 @@ export default function RootLayout({
         />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50 text-slate-900 min-h-screen flex flex-col`}>
-        {/* Header */}
-        <header className="w-full bg-white border-b border-slate-200 sticky top-0 z-50 shadow-sm">
-          <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
-            <Link href="/" className="flex items-center gap-2">
-              <span className="text-2xl">💡</span>
-              <span className="text-xl font-extrabold text-slate-800 tracking-tight">FinInsight</span>
-            </Link>
-            <nav className="hidden sm:flex gap-6">
-              <Link href="/#investment" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">투자 계산</Link>
-              <Link href="/#daily" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">일상 계산</Link>
-              <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" className="relative group inline-flex items-center justify-center">
-                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-sky-500 rounded-full blur opacity-40 group-hover:opacity-100 transition duration-300 animate-pulse"></div>
-                <span className="relative text-sm font-bold bg-white text-sky-700 px-4 py-1.5 rounded-full border border-sky-200 shadow-sm flex items-center gap-1 group-hover:bg-sky-50 transition-colors">
-                  🏝️ 전국 물놀이 지도
-                </span>
-              </a>
-              <Link href="/daily-report" className="text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors flex items-center gap-1">📰 오늘의 뉴스</Link>
-              <Link href="/calculators/goal-tracker" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">1억 모으기</Link>
-            </nav>
-            <button className="sm:hidden p-2 text-slate-600">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12h16"/><path d="M4 6h16"/><path d="M4 18h16"/></svg>
-            </button>
-          </div>
-        </header>
+        <Header />
 
         {/* Main Content */}
         <main className="flex-1 w-full max-w-5xl mx-auto p-4 md:p-6 lg:p-8">
