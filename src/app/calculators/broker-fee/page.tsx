@@ -509,8 +509,8 @@ export default function BrokerFeeCalculatorPage() {
         
           
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="전세자금대출 조건 2025 총정리｜금리 한도 필요서류" url="https://weknews.com/%ec%a0%84%ec%84%b8%ec%9e%90%ea%b8%88%eb%8c%80%ec%b6%9c-%ec%a1%b0%ea%b1%b4-2025-%ec%b4%9d%ec%a0%95%eb%a6%ac%ef%bd%9c%ea%b8%88%eb%a6%ac-%ed%95%9c%eb%8f%84-%ed%95%84%ec%9a%94%ec%84%9c%eb%a5%98/" />
-            <WordPressLink title="재개발임대주택 모집 일정 확인하기" url="https://weknews.com/%ec%9e%ac%ea%b0%9c%eb%b0%9c%ec%9e%84%eb%8c%80%ec%a3%bc%ed%83%9d-%eb%aa%a8%ec%a7%91-%ec%9d%bc%ec%a0%95/" />
+            <WordPressLink title="중개형 ISA 계좌의 모든 것 (수수료 절감 핵심)" url="https://weknews.com/%ec%a4%91%ea%b0%9c%ed%98%95-isa-%ea%b3%84%ec%a2%8c/" />
+            <WordPressLink title="미성년자 자녀 주식 계좌 개설 방법 총정리" url="https://weknews.com/%eb%af%b8%ec%84%b1%eb%85%84%ec%9e%90-%ec%a3%bc%ec%8b%9d-%ea%b3%84%ec%a2%8c%ea%b0%9c%ec%84%a4-%eb%b0%a9%eb%b2%95/" />
           </div>
         </section>
       </article>
