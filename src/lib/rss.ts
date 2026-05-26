@@ -8,6 +8,7 @@ export type NewsItem = {
 };
 
 const parser = new Parser({
+  timeout: 5000,
   customFields: {
     item: ['source']
   }
