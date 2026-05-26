@@ -507,9 +507,10 @@ export default function BrokerFeeCalculatorPage() {
             따라서 연말에 손실 난 종목을 매도하여 수익금을 250만 원 이하로 맞추는 절세 전략이 매우 중요합니다.
           </p>
         
+          
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="부동산 중개수수료 반값으로 깎는 협상 기술 실전편" url="https://weknews.com/?s=%EB%B6%80%EB%8F%99%EC%82%B0%20%EC%A4%91%EA%B0%9C%EC%88%98%EC%88%98%EB%A3%8C" />
-            <WordPressLink title="전월세 계약 전 반드시 확인해야 할 특약사항 5가지" url="https://weknews.com/?s=%EC%A0%84%EC%9B%94%EC%84%B8%20%ED%8A%B9%EC%95%BD%EC%82%AC%ED%95%AD" />
+            <WordPressLink title="전세자금대출 조건 2025 총정리｜금리 한도 필요서류" url="https://weknews.com/%ec%a0%84%ec%84%b8%ec%9e%90%ea%b8%88%eb%8c%80%ec%b6%9c-%ec%a1%b0%ea%b1%b4-2025-%ec%b4%9d%ec%a0%95%eb%a6%ac%ef%bd%9c%ea%b8%88%eb%a6%ac-%ed%95%9c%eb%8f%84-%ed%95%84%ec%9a%94%ec%84%9c%eb%a5%98/" />
+            <WordPressLink title="재개발임대주택 모집 일정 확인하기" url="https://weknews.com/%ec%9e%ac%ea%b0%9c%eb%b0%9c%ec%9e%84%eb%8c%80%ec%a3%bc%ed%83%9d-%eb%aa%a8%ec%a7%91-%ec%9d%bc%ec%a0%95/" />
           </div>
         </section>
       </article>

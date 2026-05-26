@@ -220,9 +220,10 @@ export default function GrowthFundCalculatorPage() {
             위 계산기에서 계좌 유형을 변경하여 실질적으로 수령하는 최종 금액의 차이를 확인해 보세요.
           </p>
         
+          
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="복리의 마법을 극대화하는 인덱스 펀드 적립식 투자법" url="https://weknews.com/?s=%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%ED%8E%80%EB%93%9C" />
-            <WordPressLink title="나스닥 S&P500 ETF 투자 수익률 10년 백테스트 결과" url="https://weknews.com/?s=S%26P500%20ETF" />
+            <WordPressLink title="국민성장펀드 가입 방법 및 혜택 완벽 분석" url="https://weknews.com/%ea%b5%ad%eb%af%bc%ec%84%b1%ec%9e%a5%ed%8e%80%eb%93%9c-%ea%b0%80%ec%9e%85-%eb%b0%a9%eb%b2%95/" />
+            <WordPressLink title="연금저축펀드 세액공제 혜택 총정리" url="https://weknews.com/%ec%97%b0%ea%b8%88%ec%a0%80%ec%b6%95%ed%8e%80%eb%93%9c-%ec%84%b8%ec%95%a1%ea%b3%b5%ec%a0%9c/" />
           </div>
         </section>
       </article>

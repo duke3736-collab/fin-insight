@@ -373,9 +373,10 @@ export default function SeveranceCalculatorPage() {
             </div>
           </div>
         
+          
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="퇴직금 IRP 계좌 이체 시 퇴직소득세 30% 감면 받는 법" url="https://weknews.com/?s=IRP%20%ED%87%B4%EC%A7%81%EA%B8%88" />
-            <WordPressLink title="퇴사 전 반드시 확인해야 할 퇴직금 계산 시 평균임금 기준" url="https://weknews.com/?s=%ED%87%B4%EC%A7%81%EA%B8%88%20%EA%B3%84%EC%82%B0" />
+            <WordPressLink title="퇴직연금 가입 방법 및 최적 시기 안내" url="https://weknews.com/%ed%87%b4%ec%a7%81%ec%97%b0%ea%b8%88-%ea%b0%80%ec%9e%85-%eb%b0%a9%eb%b2%95-%ec%8b%9c%ea%b8%b0/" />
+            <WordPressLink title="숨은 미청구 퇴직연금 조회 및 신청 방법" url="https://weknews.com/%eb%af%b8%ec%b2%ad%ea%b5%ac-%ed%87%b4%ec%a7%81%ec%97%b0%ea%b8%88-%ec%a1%b0%ed%9a%8c-%ec%8b%a0%ec%b2%ad/" />
           </div>
         </section>
       </article>

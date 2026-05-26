@@ -404,9 +404,10 @@ export default function DepositCalculatorPage() {
             한 금융회사당 <strong>원금과 소정의 이자를 합쳐 1인당 최고 5,000만 원까지</strong>는 해당 은행이 파산하더라도 예금보험공사(새마을금고/신협은 자체 중앙회)에서 지급을 보장해 줍니다. 따라서 예치금이 5,000만 원을 초과한다면, 여러 저축은행에 4,500만 원씩 <strong>분산 예치(풍차돌리기)</strong> 하는 것이 가장 안전하고 스마트한 투자 방법입니다.
           </p>
         
+          
           <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
-            <WordPressLink title="2026년 예적금 특판 정보 및 최고금리 은행 리스트" url="https://weknews.com/?s=%EC%98%88%EC%A0%81%EA%B8%88%20%ED%8A%B9%ED%8C%90" />
-            <WordPressLink title="풍차돌리기 적금 100% 성공하는 세팅 방법론" url="https://weknews.com/?s=%ED%92%8D%EC%B0%A8%EB%8F%8C%EB%A6%AC%EA%B8%B0%20%EC%A0%81%EA%B8%88" />
+            <WordPressLink title="파킹통장 금리 비교 완벽 가이드" url="https://weknews.com/%ed%8c%8c%ed%82%b9%ed%86%b5%ec%9e%a5-%ea%b8%88%eb%a6%ac-%eb%b9%84%ea%b5%90/" />
+            <WordPressLink title="청년미래적금 은행 추천 TOP6 총정리" url="https://weknews.com/%ec%b2%ad%eb%85%84%eb%af%b8%eb%9e%98%ec%a0%81%ea%b8%88-%ec%9d%80%ed%96%89-%ec%b6%94%ec%b2%9c-top6-%ec%b4%9d%ec%a0%95%eb%a6%ac/" />
           </div>
         </section>
       </article>
