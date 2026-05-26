@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export default function RealEstateTaxCalculatorPage() {
   const [propertyType, setPropertyType] = useState<"residential" | "commercial" | "land" | "farm">("residential");
@@ -315,9 +315,9 @@ export default function RealEstateTaxCalculatorPage() {
         </div>
 
         <div className="mt-8">
-           <KakaoShareButton 
-             title="부동산 취득세 계산기" 
-             description="주택 수, 조정대상지역, 전용면적까지 2026년 기준 정확한 취득세 계산!" 
+           <ShareButtons 
+             title="부동산 취득세/중개수수료 계산기" 
+             description={`예상 취득세는 ₩${formatNumber(result.totalTax)} 입니다!`} 
              kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
            />
         </div>

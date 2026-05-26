@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export default function SeveranceCalculatorPage() {
   const [joinDate, setJoinDate] = useState("");
@@ -316,7 +316,7 @@ export default function SeveranceCalculatorPage() {
                   </a>
               </div>
 
-              <KakaoShareButton 
+              <ShareButtons 
                 title="퇴직금/IRP 실전 계산기" 
                 description={`내 예상 퇴직금은 ₩${formatNumber(severancePay)} 입니다!`} 
                 kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
