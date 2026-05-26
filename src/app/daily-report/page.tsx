@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Parser from "rss-parser";
 import AdSenseBanner from "@/components/AdSenseBanner";
+import PwaInstallButton from "@/components/PwaInstallButton";
 
 export const revalidate = 3600; // Revalidate every hour
 
@@ -80,14 +81,8 @@ export default async function DailyNewsPage() {
             </p>
             
             {/* PWA Install Promotion */}
-            <div className="mt-8 flex justify-center">
-              <div className="inline-flex flex-col sm:flex-row items-center gap-4 bg-white/10 backdrop-blur-md border border-white/20 p-4 rounded-2xl">
-                <div className="text-4xl">📱</div>
-                <div className="text-left">
-                  <div className="text-white font-bold">스마트폰 앱으로 더 편하게 보세요!</div>
-                  <div className="text-indigo-200 text-sm">브라우저 메뉴에서 '홈 화면에 추가'를 눌러보세요.</div>
-                </div>
-              </div>
+            <div className="mt-8">
+              <PwaInstallButton />
             </div>
           </div>
         </div>
