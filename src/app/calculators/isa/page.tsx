@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
 import ShareButtons from "@/components/ShareButtons";
+import WordPressLink from "@/components/WordPressLink";
 
 import {
   Chart as ChartJS,
@@ -386,6 +387,13 @@ export default function IsaCalculatorPage() {
                 만기일을 20년으로 길게 설정하더라도, 의무 가입 기간인 <b>3년만 지나면 언제든 페널티 없이</b> 해지하여 비과세 혜택 정산 및 출금이 가능합니다.
               </p>
             </div>
+          </div>
+          
+          <div className="mt-8">
+            <WordPressLink 
+              title="중개형 ISA 만기일 설정 방법 변경 팁 3분 정리" 
+              url="https://weknews.com/%ec%a4%91%ea%b0%9c%ed%98%95-isa-%eb%a7%8c%ea%b8%b0%ec%9d%bc-%ec%84%a4%ec%a0%95/" 
+            />
           </div>
         </div>
       </section>
