@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Parser from "rss-parser";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import PwaInstallButton from "@/components/PwaInstallButton";
+import PWAInstallButton from "@/components/PWAInstallButton";
 
 export const revalidate = 3600; // Revalidate every hour
 
@@ -81,9 +81,7 @@ export default async function DailyNewsPage() {
             </p>
             
             {/* PWA Install Promotion */}
-            <div className="mt-8">
-              <PwaInstallButton />
-            </div>
+            <PWAInstallButton />
           </div>
         </div>
       </div>
