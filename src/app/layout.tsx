@@ -56,7 +56,7 @@ export default function RootLayout({
               <Link href="/#investment" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">투자 계산</Link>
               <Link href="/#daily" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">일상 계산</Link>
               <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-sky-600 hover:text-sky-700 transition-colors bg-sky-50 px-3 py-1 rounded-full border border-sky-100 flex items-center gap-1">
-                🏝️ 갓성비맵
+                🏝️ 씨맵(Sea-Map)
               </a>
               <Link href="/daily-report" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">데일리 리포트</Link>
               <Link href="/calculators/goal-tracker" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">1억 모으기</Link>
