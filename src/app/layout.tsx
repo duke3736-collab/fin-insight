@@ -61,7 +61,6 @@ export default function RootLayout({
                   🏝️ 전국 물놀이 지도
                 </span>
               </a>
-              <Link href="/daily-report" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">데일리 리포트</Link>
               <Link href="/calculators/goal-tracker" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">1억 모으기</Link>
             </nav>
             <button className="sm:hidden p-2 text-slate-600">
