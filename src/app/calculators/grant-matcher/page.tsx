@@ -259,6 +259,15 @@ export default function SubsidyFinderPage() {
         description="나에게 꼭 맞는 숨은 정부지원금을 1분만에 빠르게 찾아보세요!" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
       />
+
+      <article className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm mt-12 space-y-8">
+        <section>
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="2026 청년지원금 비수도권 중소기업 대상 안내" url="https://weknews.com/2026-%ec%b2%ad%eb%85%84%ec%a7%80%ec%9b%90%ea%b8%88-%eb%b9%84%ec%88%98%eb%8f%84%ea%b6%8c-%ec%a4%91%ec%86%8c%ea%b8%b0%ec%97%85/" />
+            <WordPressLink title="고유가 피해지원금 2차 지급 대상 및 신청" url="https://weknews.com/%ea%b3%a0%ec%9c%a0%ea%b0%80-%ed%94%bc%ed%95%b4%ec%a7%80%ec%9b%90%ea%b8%88-2%ec%b0%a8-%ec%a7%80%ea%b8%89-%eb%8c%80%ec%83%81%ec%9d%80/" />
+          </div>
+        </section>
+      </article>
     </div>
   );
 }

@@ -271,6 +271,15 @@ export default function HealthInsuranceCalculatorPage() {
         description="직장인, 프리랜서, 자영업자를 위한 정확한 건강보험료 계산기" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
       />
+
+      <article className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm mt-12 space-y-8">
+        <section>
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="소득 하위 70% 부부 맞벌이 건보료 기준" url="https://weknews.com/%ec%86%8c%eb%93%9d-%ed%95%98%ec%9c%84-70-%eb%b6%80%eb%b6%80-%eb%a7%9e%eb%b2%8c%ec%9d%b4-%ea%b1%b4%eb%b3%b4%eb%a3%8c/" />
+            <WordPressLink title="직장가입자 vs 지역가입자 건강보험료 비교" url="https://weknews.com/%ea%b3%a0%ec%9c%a0%ea%b0%80-%ec%a7%80%ec%9b%90%ea%b8%88-%ec%a7%81%ec%9e%a5%ea%b0%80%ec%9e%85%ec%9e%90-vs-%ec%a7%80%ec%97%ad%ea%b0%80%ec%9e%85%ec%9e%90/" />
+          </div>
+        </section>
+      </article>
     </div>
   );
 }

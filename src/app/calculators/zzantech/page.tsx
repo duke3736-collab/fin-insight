@@ -145,6 +145,16 @@ export default function ZzantechCalculatorPage() {
         description="오늘 커피 한 잔 아끼면 미래에 얼마가 될까요?" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
       />
+
+      <article className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm mt-12 space-y-8">
+        <section>
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="직장인 부업러를 위한 종합소득세 신고 방법" url="https://weknews.com/%ec%a7%81%ec%9e%a5%ec%9d%b8-%eb%b6%80%ec%97%85-%ec%a2%85%ec%86%8c%ec%84%b8-%ec%8b%a0%ea%b3%a0/" />
+            <WordPressLink title="반값여행 지역상품권 쿠폰 100% 활용법" url="https://weknews.com/%eb%b0%98%ea%b0%92%ec%97%ac%ed%96%89-%ec%a7%80%ec%97%ad%ec%83%81%ed%92%88%ea%b6%8c-%ec%bf%a0%ed%8f%b0/" />
+          </div>
+        </section>
+      </article>
+
     </div>
   );
 }

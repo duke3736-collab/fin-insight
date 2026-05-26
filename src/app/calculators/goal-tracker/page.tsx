@@ -144,6 +144,15 @@ export default function GoalTrackerPage() {
         description="내 목표 금액까지 얼마나 남았을까요? 진척도를 확인해보세요!" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
       />
+
+      <article className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm mt-12 space-y-8">
+        <section>
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="비과세종합저축 대상 가입 방법 총정리" url="https://weknews.com/%eb%b9%84%ea%b3%bc%ec%84%b8%ec%a2%85%ed%95%a9%ec%a0%80%ec%b6%95-%eb%8c%80%ec%83%81-%ea%b0%80%ec%9e%85-%eb%b0%a9%eb%b2%95/" />
+            <WordPressLink title="2026 서울시 안심통장 신청방법 및 조건" url="https://weknews.com/2026-%ec%84%9c%ec%9a%b8%ec%8b%9c-%ec%95%88%ec%8b%ac%ed%86%b5%ec%9e%a5-%ec%8b%a0%ec%b2%ad%eb%b0%a9%eb%b2%95/" />
+          </div>
+        </section>
+      </article>
     </div>
   );
 }
