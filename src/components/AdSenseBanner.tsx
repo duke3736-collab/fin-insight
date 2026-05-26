@@ -25,7 +25,7 @@ export default function AdSenseBanner({ dataAdSlot, className = "" }: AdSenseBan
   }, []);
 
   return (
-    <div className={`w-full overflow-hidden flex justify-center items-center bg-slate-50 border border-slate-100 rounded-xl my-4 min-h-[100px] relative ${className}`}>
+    <div className={`w-full overflow-hidden flex justify-center items-center my-4 min-h-[100px] relative ${className}`}>
       {/* Placeholder text for development/when ads are blocked */}
       <span className="absolute text-slate-300 text-xs font-bold tracking-widest uppercase z-0 pointer-events-none">
         Advertisement
