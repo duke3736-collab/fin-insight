@@ -208,6 +208,15 @@ export default function ApartmentROICalculatorPage() {
         </div>
       </div>
 
+      <article className="bg-white p-8 rounded-2xl border border-slate-200 shadow-sm mt-12 space-y-8">
+        <section>
+          <div className="flex flex-col gap-3 mt-6 pt-6 border-t border-slate-100">
+            <WordPressLink title="강남 아파트 매매 가격 동향" url="https://weknews.com/%ea%b0%95%eb%82%a8-%ec%95%84%ed%8c%8c%ed%8a%b8-%eb%a7%a4%eb%a7%a4-%ea%b0%80%ea%b2%a9/" />
+            <WordPressLink title="미리내집 7차 서울 장기전세주택 신청 안내" url="https://weknews.com/%eb%af%b8%eb%a6%ac%eb%82%b4%ec%a7%91-7%ec%b0%a8-%ec%84%9c%ec%9a%b8-%ec%9e%a5%ea%b8%b0%ec%a0%84%ec%84%b8%ec%a3%bc%ed%83%9d/" />
+          </div>
+        </section>
+      </article>
+
     </div>
   );
 }
