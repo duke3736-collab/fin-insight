@@ -163,3 +163,10 @@ export default function ShareButtons({ title, description, kakaoAppKey, imageUrl
     </div>
   );
 }
+
+// Add global type definition for Kakao
+declare global {
+  interface Window {
+    Kakao: any;
+  }
+}
