@@ -294,6 +294,24 @@ export default function RealEstateTaxCalculatorPage() {
               ※ 지방교육세/농특세는 취득세율에 연동되어 자동 계산됩니다.
             </div>
           </div>
+
+          <div className="mt-8 mb-4">
+              <a href="https://link.coupang.com/a/YOUR_COUPANG_LINK_REAL_ESTATE" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-blue-600 to-indigo-700 rounded-2xl p-5 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all group relative overflow-hidden">
+                  <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-3">
+                      <div className="flex items-center gap-3">
+                          <span className="text-3xl group-hover:scale-110 transition-transform">🏠</span>
+                          <div>
+                              <h3 className="text-lg font-black mb-0.5">부동산 절세의 모든 것! 추천 도서</h3>
+                              <p className="text-blue-100 font-medium text-xs md:text-sm">취득세, 양도세 폭탄 피하는 실전 세금 가이드북</p>
+                          </div>
+                      </div>
+                      <span className="shrink-0 text-center bg-white text-indigo-700 font-bold px-4 py-2 rounded-xl text-sm group-hover:bg-indigo-50 transition-colors">
+                          특가 보기 🚀
+                      </span>
+                  </div>
+                  <div className="absolute bottom-1 right-3 text-[9px] text-white/30">파트너스 활동 수수료 제공 가능</div>
+              </a>
+          </div>
         </div>
 
         <div className="mt-8">

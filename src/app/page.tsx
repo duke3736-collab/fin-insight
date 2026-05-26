@@ -105,6 +105,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SPONSOR / AFFILIATE BANNER */}
+      <div className="pb-8">
+        <a href="https://link.coupang.com/a/YOUR_COUPANG_LINK_BOOKS" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl p-6 md:p-8 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all group overflow-hidden relative">
+            <div className="absolute -right-10 -top-10 w-40 h-40 bg-white/20 rounded-full blur-2xl group-hover:bg-white/30 transition-colors"></div>
+            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8">
+                <div className="flex items-center gap-4">
+                    <span className="text-5xl group-hover:animate-bounce">📚</span>
+                    <div>
+                        <h3 className="text-xl md:text-2xl font-black mb-1">재테크/부동산 베스트셀러 모음전</h3>
+                        <p className="text-emerald-100 font-medium text-sm md:text-base">아는 만큼 돈이 됩니다! 지금 가장 핫한 경제 도서 확인하기</p>
+                    </div>
+                </div>
+                <span className="shrink-0 w-full md:w-auto text-center bg-white text-emerald-600 font-black px-8 py-4 rounded-2xl shadow-md group-hover:bg-emerald-50 transition-colors text-lg">
+                    추천 도서 보기 👉
+                </span>
+            </div>
+            <div className="absolute bottom-2 right-4 text-[10px] text-white/40">파트너스 활동을 통해 일정액의 수수료를 제공받을 수 있음</div>
+        </a>
+      </div>
+
       {/* Life Calculators Grid */}
       <section id="life">
         <h2 className="text-2xl font-extrabold text-slate-800 mb-6 flex items-center gap-2">

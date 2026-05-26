@@ -298,6 +298,24 @@ export default function SeveranceCalculatorPage() {
                 계산 공식: 1일 평균임금 × 30일 × (총 재직일수 ÷ 365)
               </div>
 
+              <div className="mt-6 mb-4">
+                  <a href="https://link.coupang.com/a/YOUR_COUPANG_LINK_N_JOB" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-violet-600 to-fuchsia-600 rounded-2xl p-5 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all group relative overflow-hidden">
+                      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-3">
+                          <div className="flex items-center gap-3">
+                              <span className="text-3xl group-hover:scale-110 transition-transform">💰</span>
+                              <div>
+                                  <h3 className="text-lg font-black mb-0.5">은퇴 후 제2의 월급 만들기! 베스트셀러</h3>
+                                  <p className="text-violet-100 font-medium text-xs md:text-sm">배당주 투자부터 직장인 N잡러 실전 가이드북</p>
+                              </div>
+                          </div>
+                          <span className="shrink-0 text-center bg-white text-violet-700 font-bold px-4 py-2 rounded-xl text-sm group-hover:bg-violet-50 transition-colors">
+                              도서 보기 🚀
+                          </span>
+                      </div>
+                      <div className="absolute bottom-1 right-3 text-[9px] text-white/30">파트너스 활동 수수료 제공 가능</div>
+                  </a>
+              </div>
+
               <KakaoShareButton 
                 title="퇴직금/IRP 실전 계산기" 
                 description={`내 예상 퇴직금은 ₩${formatNumber(severancePay)} 입니다!`} 
