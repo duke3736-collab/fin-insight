@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export default function HealthInsuranceCalculatorPage() {
   const [activeTab, setActiveTab] = useState<"employee" | "regional">("employee");
@@ -265,7 +265,7 @@ export default function HealthInsuranceCalculatorPage() {
         </div>
       </div>
       
-      <KakaoShareButton 
+      <ShareButtons 
         title="건강보험료 계산기" 
         description="직장인, 프리랜서, 자영업자를 위한 정확한 건강보험료 계산기" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

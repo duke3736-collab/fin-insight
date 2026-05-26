@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export default function YieldSnapshotPage() {
   const [stockName, setStockName] = useState<string>("엔비디아 (NVIDIA)");
@@ -139,7 +139,7 @@ export default function YieldSnapshotPage() {
 
       </div>
       
-      <KakaoShareButton 
+      <ShareButtons 
         title="수익률 인증샷 메이커" 
         description="내 주식 수익률을 예쁜 카드로 만들어 자랑해보세요!" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

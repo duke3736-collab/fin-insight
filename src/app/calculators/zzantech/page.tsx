@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export default function ZzantechCalculatorPage() {
   const [dailyAmount, setDailyAmount] = useState<number>(5000);
@@ -139,7 +139,7 @@ export default function ZzantechCalculatorPage() {
         </div>
       </div>
       
-      <KakaoShareButton 
+      <ShareButtons 
         title="짠테크 수익 계산기" 
         description="오늘 커피 한 잔 아끼면 미래에 얼마가 될까요?" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

@@ -3,7 +3,7 @@
 import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 interface RateItem {
   bank: string;
@@ -339,7 +339,7 @@ export default function DepositCalculatorPage() {
             </ul>
           )}
           
-          <KakaoShareButton 
+          <ShareButtons 
             title="실시간 최고 금리 비교기" 
             description={`지금 가장 이자를 많이 주는 예금/적금/파킹통장은 어디일까요? 확인해보세요!`} 
             kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

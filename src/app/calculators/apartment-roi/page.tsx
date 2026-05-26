@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export default function ApartmentROICalculatorPage() {
   const [buyPrice, setBuyPrice] = useState("");
@@ -199,7 +199,7 @@ export default function ApartmentROICalculatorPage() {
         </div>
 
         <div className="mt-8">
-           <KakaoShareButton 
+           <ShareButtons 
              title="아파트 투자 수익률 계산기" 
              description="매매가, 부대비용, 임대수익을 종합한 내 진짜 투자 수익률은 얼마일까?" 
              kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

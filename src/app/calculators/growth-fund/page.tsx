@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export default function GrowthFundCalculatorPage() {
   const [amountStr, setAmountStr] = useState("10,000,000");
@@ -194,7 +194,7 @@ export default function GrowthFundCalculatorPage() {
         </div>
 
         <div className="mt-8">
-           <KakaoShareButton 
+           <ShareButtons 
              title="국민성장펀드 수익률 & 손실방어 계산기" 
              description="정부의 20% 손실 방어 효과를 직접 시뮬레이션 해보세요!" 
              kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

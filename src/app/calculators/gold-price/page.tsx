@@ -3,7 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 const API_URL = 'https://api.gold-api.com/price/XAU/KRW';
 const TROY_OUNCE_TO_GRAM = 31.1034768;
@@ -154,7 +154,7 @@ export default function GoldPricePage() {
         </div>
       </div>
       
-      <KakaoShareButton 
+      <ShareButtons 
         title="실시간 금시세" 
         description="현재 1돈, 1g 당 금 가격을 실시간으로 확인해 보세요!" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

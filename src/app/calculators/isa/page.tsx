@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 import {
   Chart as ChartJS,
@@ -346,7 +346,7 @@ export default function IsaCalculatorPage() {
       </main>
 
       <div className="px-4">
-        <KakaoShareButton 
+        <ShareButtons 
             title="2026 ISA 스마트 가이드" 
             description="중개형 ISA 수수료 절감액부터 만기 연금 전환 혜택까지 완벽히 분석하세요!" 
             kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

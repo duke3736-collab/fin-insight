@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 const DOMESTIC_BROKERS = [
   { name: "토스증권", rate: 0.015, event: "평생 우대 0.0036%", eventRate: 0.0036396, eventOn: true, color: "blue", url: "https://tossinvest.com" },
@@ -482,7 +482,7 @@ export default function BrokerFeeCalculatorPage() {
         </div>
 
         <div className="mt-8">
-           <KakaoShareButton 
+           <ShareButtons 
              title="증권사 수수료/세금 비교 계산기" 
              description="내 투자 성향에 맞는 최적의 증권사를 찾아보세요!" 
              kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

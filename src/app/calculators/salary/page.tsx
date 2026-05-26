@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 // 2026 rates
 const RATES = {
@@ -350,7 +350,7 @@ export default function SalaryCalculatorPage() {
         </div>
 
         <div className="mt-8">
-           <KakaoShareButton 
+           <ShareButtons 
              title="2026년 기준 연봉 실수령액 계산기" 
              description="내 월급에서 세금이 얼마나 빠져나갈까? 1초 만에 확인해보세요!" 
              kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

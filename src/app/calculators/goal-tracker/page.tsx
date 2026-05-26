@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export default function GoalTrackerPage() {
   const [targetAmount, setTargetAmount] = useState<number>(100000000); // 1억
@@ -138,7 +138,7 @@ export default function GoalTrackerPage() {
         </div>
       </div>
       
-      <KakaoShareButton 
+      <ShareButtons 
         title="D-Day 목표 달성기" 
         description="내 목표 금액까지 얼마나 남았을까요? 진척도를 확인해보세요!" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 

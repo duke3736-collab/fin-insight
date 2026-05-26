@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import AdSenseBanner from "@/components/AdSenseBanner";
-import KakaoShareButton from "@/components/KakaoShareButton";
+import ShareButtons from "@/components/ShareButtons";
 
 type Category = 'all' | 'youth' | 'child' | 'senior' | 'smallbiz' | 'housing';
 
@@ -253,7 +253,7 @@ export default function SubsidyFinderPage() {
         </div>
       </div>
       
-      <KakaoShareButton 
+      <ShareButtons 
         title="내 동네 지원금 찾기" 
         description="나에게 꼭 맞는 숨은 정부지원금을 1분만에 빠르게 찾아보세요!" 
         kakaoAppKey="11032eefd7d0111cb94d93c0ab41eb01" 
