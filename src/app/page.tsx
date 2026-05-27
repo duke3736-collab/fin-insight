@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { fetchGoogleNews } from "@/lib/rss";
 import PWAInstallButton from "@/components/PWAInstallButton";
+import ShareButtons from "@/components/ShareButtons";
 
 export const revalidate = 3600; // 1 hour
 
@@ -45,8 +46,15 @@ export default async function Home() {
             </ul>
           </Link>
           
-          <div className="mt-8">
+          <div className="mt-8 flex flex-col items-start gap-4">
             <PWAInstallButton />
+            <div className="bg-white/40 p-3 rounded-2xl border border-emerald-100">
+              <ShareButtons 
+                title="핀인사이트 - 똑똑한 금융 계산기" 
+                description="복잡한 세금과 금융 계산을 한 번에! 나의 투자 수익률과 절세 혜택을 확인해보세요." 
+                kakaoAppKey={process.env.NEXT_PUBLIC_KAKAO_APP_KEY || ""} 
+              />
+            </div>
           </div>
         </div>
         <div className="absolute -right-20 -bottom-20 w-64 h-64 bg-emerald-400/20 rounded-full blur-3xl"></div>
