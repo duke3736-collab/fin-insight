@@ -198,6 +198,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/part-time-salary" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-pink-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-red-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-pink-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              ⏰
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-pink-600 transition-colors">2026년 알바 급여 계산기</h3>
+            <p className="text-sm text-slate-500">
+              최저시급 반영, 주휴수당, 세금, 수습기간 공제까지 한 번에 완벽 계산
+            </p>
+          </Link>
+
           <Link href="/calculators/zzantech" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-purple-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-purple-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               ☕
