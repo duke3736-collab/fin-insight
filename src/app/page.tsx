@@ -261,6 +261,17 @@ export default async function Home() {
             </p>
           </a>
 
+          <a href="https://download.weknews.com/" target="_blank" rel="noopener noreferrer" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-blue-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              ⚡
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">소프트웨어 금고 (무료 다운로드)</h3>
+            <p className="text-sm text-slate-500">
+              필수 PC 프로그램, 최신 AI 도구를 광고 없이 가장 빠르고 안전하게 다운로드하세요!
+            </p>
+          </a>
+
           <Link href="/calculators/goal-tracker" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🎯
