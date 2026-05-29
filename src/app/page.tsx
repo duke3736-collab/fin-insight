@@ -141,8 +141,24 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* SPONSOR / AFFILIATE BANNER */}
-      <div className="pb-8">
+      {/* DRIVE MAP BANNER & AFFILIATE */}
+      <div className="pb-8 space-y-4">
+        <a href="https://drive.weknews.com/" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-orange-500 to-amber-500 rounded-3xl p-6 md:p-8 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all group overflow-hidden relative">
+            <div className="absolute -left-10 -top-10 w-40 h-40 bg-white/20 rounded-full blur-2xl group-hover:bg-white/30 transition-colors"></div>
+            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8">
+                <div className="flex items-center gap-4">
+                    <span className="text-5xl group-hover:scale-110 transition-transform">🚗</span>
+                    <div>
+                        <h3 className="text-xl md:text-2xl font-black mb-1">답답할 땐? 전국 감성 드라이브 코스</h3>
+                        <p className="text-orange-100 font-medium text-sm md:text-base">바다, 노을, 야경까지! 1초 만에 확인하는 인생 드라이브 코스 모음</p>
+                    </div>
+                </div>
+                <span className="shrink-0 w-full md:w-auto text-center bg-white text-orange-600 font-black px-8 py-4 rounded-2xl shadow-md group-hover:bg-orange-50 transition-colors text-lg">
+                    코스 보기 👉
+                </span>
+            </div>
+        </a>
+
         <a href="https://link.coupang.com/a/d3Fm5zRXxs" target="_blank" rel="noopener noreferrer" className="block w-full bg-gradient-to-r from-emerald-500 to-teal-600 rounded-3xl p-6 md:p-8 text-white shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all group overflow-hidden relative">
             <div className="absolute -right-10 -top-10 w-40 h-40 bg-white/20 rounded-full blur-2xl group-hover:bg-white/30 transition-colors"></div>
             <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-8">
@@ -239,8 +255,18 @@ export default async function Home() {
             </p>
           </Link>
 
-          <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-cyan-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+          <a href="https://drive.weknews.com/" target="_blank" rel="noopener noreferrer" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-orange-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-red-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">HOT</div>
+            <div className="w-12 h-12 bg-orange-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🚗
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-orange-600 transition-colors">전국 감성 드라이브 코스</h3>
+            <p className="text-sm text-slate-500">
+              바다, 노을, 벚꽃 명소 등 인생 드라이브 코스 총정리!
+            </p>
+          </a>
+
+          <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-cyan-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
             <div className="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏝️
             </div>

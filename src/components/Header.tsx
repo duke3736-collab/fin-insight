@@ -19,9 +19,15 @@ export default function Header() {
           <Link href="/#investment" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">투자 계산</Link>
           <Link href="/#life" className="text-sm font-bold text-slate-600 hover:text-emerald-600 transition-colors">생활 계산</Link>
           <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" className="relative group inline-flex items-center justify-center">
-            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-sky-500 rounded-full blur opacity-40 group-hover:opacity-100 transition duration-300 animate-pulse"></div>
+            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-sky-500 rounded-full blur opacity-40 group-hover:opacity-100 transition duration-300"></div>
             <span className="relative text-sm font-bold bg-white text-sky-700 px-4 py-1.5 rounded-full border border-sky-200 shadow-sm flex items-center gap-1 group-hover:bg-sky-50 transition-colors">
-              🏝️ 전국 물놀이 지도
+              🏝️ 씨맵(Sea-Map)
+            </span>
+          </a>
+          <a href="https://drive.weknews.com/" target="_blank" rel="noopener noreferrer" className="relative group inline-flex items-center justify-center">
+            <div className="absolute -inset-1 bg-gradient-to-r from-orange-400 to-amber-500 rounded-full blur opacity-40 group-hover:opacity-100 transition duration-300 animate-pulse"></div>
+            <span className="relative text-sm font-bold bg-white text-orange-700 px-4 py-1.5 rounded-full border border-orange-200 shadow-sm flex items-center gap-1 group-hover:bg-orange-50 transition-colors">
+              🚗 드라이브 코스
             </span>
           </a>
           <Link href="/daily-report" className="text-sm font-bold text-slate-600 hover:text-indigo-600 transition-colors flex items-center gap-1">📰 오늘의 뉴스</Link>
@@ -54,6 +60,11 @@ export default function Header() {
             <a href="https://map.weknews.com/" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="block mt-2">
               <span className="inline-block text-base font-bold bg-gradient-to-r from-sky-50 to-cyan-50 text-sky-700 px-4 py-3 rounded-xl border border-sky-200 w-full text-center shadow-sm">
                 🏝️ 전국 여름 물놀이 씨맵 (Sea-Map)
+              </span>
+            </a>
+            <a href="https://drive.weknews.com/" target="_blank" rel="noopener noreferrer" onClick={() => setIsMobileMenuOpen(false)} className="block mt-2">
+              <span className="inline-block text-base font-bold bg-gradient-to-r from-orange-50 to-amber-50 text-orange-700 px-4 py-3 rounded-xl border border-orange-200 w-full text-center shadow-sm">
+                🚗 전국 감성 드라이브 코스 (Drive Map)
               </span>
             </a>
           </div>
