@@ -184,6 +184,17 @@ export default async function Home() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
+          <Link href="/calculators/air-conditioner-bill" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-blue-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">HOT</div>
+            <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🔌
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">에어컨 전기세 계산기</h3>
+            <p className="text-sm text-slate-500">
+              벽걸이, 스탠드, 시스템 에어컨 가동시간 및 누진세 구간별 예상 전기요금 계산
+            </p>
+          </Link>
+
           <Link href="/calculators/deposit" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-sky-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-sky-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               📊
