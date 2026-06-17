@@ -6,7 +6,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const calculators = [
     'apartment-roi', 'broker-fee', 'deposit', 'goal-tracker', 'gold-price',
     'grant-matcher', 'growth-fund', 'health-insurance', 'isa', 'part-time-salary',
-    'real-estate-tax', 'salary', 'severance', 'yield-snapshot', 'zzantech'
+    'pension-reduction', 'real-estate-tax', 'salary', 'severance', 'yield-snapshot',
+    'zzantech'
   ];
 
   const calcUrls = calculators.map((calc) => ({

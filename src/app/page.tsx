@@ -236,6 +236,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/pension-reduction" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-indigo-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">HOT</div>
+            <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              👴
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">국민연금 감액기준 계산기</h3>
+            <p className="text-sm text-slate-500">
+              2026년 최신 개정법 완벽 반영! 소득 활동에 따른 연금 감액 및 2025년 환급 예상액 계산
+            </p>
+          </Link>
+
           <Link href="/calculators/zzantech" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-purple-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-purple-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               ☕
