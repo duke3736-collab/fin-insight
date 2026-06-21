@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FinInsight | 스마트 금융 계산기 포털 (ISA, 퇴직금, 예적금)",
-  description: "당신의 금융 자산을 똑똑하게 관리하세요. 중개형 ISA 절세 계산기, 퇴직금 계산기, 예적금 이자 계산기 등 필수 금융 도구를 종합 제공합니다.",
-  keywords: "ISA 절세 계산기, 중개형 ISA, 퇴직금 계산기, 예적금 이자 계산기, 금융 계산기, 재테크, 목돈 마련, 연말정산, 비과세 혜택, 복리 계산기, 대출 이자 계산기",
+  title: "FinInsight | 스마트 금융 계산기 포털 (증여세, ISA, 퇴직금, 예적금)",
+  description: "당신의 금융 자산을 똑똑하게 관리하세요. 2026년 최신 개정 증여세 계산기, 중개형 ISA 절세 계산기, 퇴직금 계산기, 예적금 이자 계산기 등 필수 금융 도구를 제공합니다.",
+  keywords: "증여세 계산기, ISA 절세 계산기, 중개형 ISA, 퇴직금 계산기, 예적금 이자 계산기, 금융 계산기, 재테크, 목돈 마련, 연말정산, 비과세 혜택, 복리 계산기, 대출 이자 계산기, 에어컨 전기세 계산기",
   manifest: "/manifest.json",
   icons: {
     icon: "/icon-192x192.png",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "FinInsight | 스마트 금융 계산기 포털",
-    description: "중개형 ISA 절세, 퇴직금, 예적금 이자까지 스마트하게 계산하세요.",
+    description: "2026 증여세, 중개형 ISA 절세, 퇴직금, 예적금 이자까지 스마트하게 계산하세요.",
     url: "https://tools.weknews.com",
     siteName: "FinInsight",
     locale: "ko_KR",
@@ -79,7 +79,7 @@ export default function RootLayout({
               "@type": "WebApplication",
               "name": "FinInsight - 스마트 금융 계산기",
               "url": "https://tools.weknews.com",
-              "description": "중개형 ISA 절세, 퇴직금, 예적금 이자 등 필수 금융 도구를 제공하는 플랫폼입니다.",
+              "description": "2026 증여세, 중개형 ISA 절세, 퇴직금, 예적금 이자 등 필수 금융 도구를 제공하는 플랫폼입니다.",
               "applicationCategory": "FinanceApplication",
               "operatingSystem": "All"
             })

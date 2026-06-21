@@ -4,10 +4,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tools.weknews.com';
 
   const calculators = [
-    'apartment-roi', 'broker-fee', 'deposit', 'goal-tracker', 'gold-price',
-    'grant-matcher', 'growth-fund', 'health-insurance', 'isa', 'part-time-salary',
-    'pension-reduction', 'real-estate-tax', 'salary', 'severance', 'yield-snapshot',
-    'zzantech'
+    'air-conditioner-bill', 'apartment-roi', 'broker-fee', 'deposit', 'gift-tax',
+    'goal-tracker', 'gold-price', 'grant-matcher', 'growth-fund', 'health-insurance',
+    'isa', 'part-time-salary', 'pension-reduction', 'real-estate-tax', 'salary',
+    'severance', 'yield-snapshot', 'zzantech'
   ];
 
   const calcUrls = calculators.map((calc) => ({
