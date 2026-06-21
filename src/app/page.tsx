@@ -109,6 +109,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/inheritance-tax" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-violet-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-violet-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-violet-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🪦
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-violet-600 transition-colors">상속세 계산기</h3>
+            <p className="text-sm text-slate-500">
+              일괄공제·배우자공제·금융재산상속공제 완벽 반영한 상속세 자동 계산
+            </p>
+          </Link>
+
           <Link href="/calculators/real-estate-tax" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏠

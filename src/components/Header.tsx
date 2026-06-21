@@ -10,6 +10,7 @@ const CALCULATORS = [
   { name: "국내/해외 주식 증권사 수수료 비교 계산기", href: "/calculators/broker-fee", icon: "📊", tag: "투자" },
   { name: "국민성장펀드 수익률 및 손실방어 계산기", href: "/calculators/growth-fund", icon: "🛡️", tag: "투자" },
   { name: "증여세 계산기", href: "/calculators/gift-tax", icon: "🎁", tag: "투자", badge: "NEW" },
+  { name: "상속세 계산기", href: "/calculators/inheritance-tax", icon: "🪦", tag: "투자", badge: "NEW" },
   { name: "부동산 취득세 계산기", href: "/calculators/real-estate-tax", icon: "🏠", tag: "투자" },
   { name: "아파트 투자 수익률 계산기", href: "/calculators/apartment-roi", icon: "📈", tag: "투자" },
   { name: "실시간 금시세", href: "/calculators/gold-price", icon: "🪙", tag: "투자" },
