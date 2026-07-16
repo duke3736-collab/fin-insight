@@ -237,6 +237,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/unemployment-benefit" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              💸
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors">실업급여 모의계산기</h3>
+            <p className="text-sm text-slate-500">
+              2026년 최신 최저임금 반영 및 나이·근무기간에 따른 예상 구직급여액과 수급일수 계산
+            </p>
+          </Link>
+
           <Link href="/calculators/salary" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               💰
