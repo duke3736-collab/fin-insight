@@ -20,6 +20,7 @@ const CALCULATORS = [
   { name: "예금 적금 최고 금리 비교 계산기", href: "/calculators/deposit", icon: "💰", tag: "생활" },
   { name: "퇴직금 계산기 및 IRP 세금 비교", href: "/calculators/severance", icon: "💼", tag: "생활" },
   { name: "실업급여 모의계산기", href: "/calculators/unemployment-benefit", icon: "💸", tag: "생활", badge: "NEW" },
+  { name: "기초생활수급자 소득인정액 모의계산기", href: "/calculators/basic-livelihood", icon: "🏠", tag: "생활", badge: "NEW" },
   { name: "2026년 연봉 실수령액 계산기", href: "/calculators/salary", icon: "💸", tag: "생활" },
   { name: "2026년 알바 급여 계산기", href: "/calculators/part-time-salary", icon: "⏰", tag: "생활", badge: "NEW" },
   { name: "국민연금 감액기준 계산기", href: "/calculators/pension-reduction", icon: "👴", tag: "생활", badge: "HOT" },

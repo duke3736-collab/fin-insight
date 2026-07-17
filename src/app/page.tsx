@@ -248,6 +248,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/basic-livelihood" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🏠
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors">기초생활수급자 소득인정액 모의계산기</h3>
+            <p className="text-sm text-slate-500">
+              2026년 최신 중위소득 반영 및 소득·재산·부채·자동차 조건에 따른 수급 가부 및 모의 진단
+            </p>
+          </Link>
+
           <Link href="/calculators/salary" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               💰
