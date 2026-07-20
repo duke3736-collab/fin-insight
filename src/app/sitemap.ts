@@ -4,7 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tools.weknews.com';
 
   const calculators = [
-    'air-conditioner-bill', 'apartment-roi', 'broker-fee', 'deposit', 'gift-tax',
+    'air-conditioner-bill', 'apartment-roi', 'broker-fee', 'deposit', 'dsr', 'gift-tax',
     'goal-tracker', 'gold-price', 'grant-matcher', 'growth-fund', 'health-insurance',
     'isa', 'part-time-salary', 'pension-reduction', 'property-tax', 'real-estate-tax', 'salary',
     'severance', 'yield-snapshot', 'zzantech'
