@@ -142,6 +142,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/ltv" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🏠
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors">2026년 LTV & 주담대 한도 계산기</h3>
+            <p className="text-sm text-slate-500">
+              규제/비규제지역, 생애최초(80%), 방공제(소액임차/MCI/MCG) 차감 후 최종 주담대 한도 계산
+            </p>
+          </Link>
+
           <Link href="/calculators/real-estate-tax" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏠

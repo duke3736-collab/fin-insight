@@ -12,6 +12,7 @@ const CALCULATORS = [
   { name: "증여세 계산기", href: "/calculators/gift-tax", icon: "🎁", tag: "투자", badge: "NEW" },
   { name: "상속세 계산기", href: "/calculators/inheritance-tax", icon: "🪦", tag: "투자", badge: "NEW" },
   { name: "2026년 DSR & 대출 한도 계산기", href: "/calculators/dsr", icon: "📊", tag: "투자", badge: "NEW" },
+  { name: "2026년 LTV & 주담대 한도 계산기", href: "/calculators/ltv", icon: "🏠", tag: "투자", badge: "NEW" },
   { name: "2026년 재산세 계산기", href: "/calculators/property-tax", icon: "🏢", tag: "투자", badge: "NEW" },
   { name: "부동산 취득세 계산기", href: "/calculators/real-estate-tax", icon: "🏠", tag: "투자" },
   { name: "아파트 투자 수익률 계산기", href: "/calculators/apartment-roi", icon: "📈", tag: "투자" },
