@@ -303,6 +303,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/weekly-allowance" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-teal-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-teal-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              ⏱️
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-teal-600 transition-colors">2026년 주휴수당 계산기</h3>
+            <p className="text-sm text-slate-500">
+              주 15시간 이상 알바/직장인 주휴시간, 주휴수당, 주급/월급 총액 및 실효시급 자동 산출
+            </p>
+          </Link>
+
           <Link href="/calculators/basic-livelihood" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
             <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
