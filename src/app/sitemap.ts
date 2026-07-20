@@ -6,7 +6,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const calculators = [
     'air-conditioner-bill', 'apartment-roi', 'broker-fee', 'deposit', 'dsr', 'dti', 'gift-tax',
     'goal-tracker', 'gold-price', 'grant-matcher', 'growth-fund', 'health-insurance',
-    'isa', 'ltv', 'part-time-salary', 'pension-reduction', 'property-tax', 'real-estate-tax', 'salary',
+    'isa', 'ltv', 'part-time-salary', 'pension-reduction', 'property-tax', 'real-estate-tax', 'realty-brokerage-fee', 'salary',
     'severance', 'yield-snapshot', 'zzantech'
   ];
 

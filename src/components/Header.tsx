@@ -15,6 +15,7 @@ const CALCULATORS = [
   { name: "2026년 DTI & 주담대 상환비율 계산기", href: "/calculators/dti", icon: "📈", tag: "투자", badge: "NEW" },
   { name: "2026년 LTV & 주담대 한도 계산기", href: "/calculators/ltv", icon: "🏠", tag: "투자", badge: "NEW" },
   { name: "2026년 재산세 계산기", href: "/calculators/property-tax", icon: "🏢", tag: "투자", badge: "NEW" },
+  { name: "부동산 중개수수료(복비) 계산기", href: "/calculators/realty-brokerage-fee", icon: "🏠", tag: "투자", badge: "NEW" },
   { name: "부동산 취득세 계산기", href: "/calculators/real-estate-tax", icon: "🏠", tag: "투자" },
   { name: "아파트 투자 수익률 계산기", href: "/calculators/apartment-roi", icon: "📈", tag: "투자" },
   { name: "실시간 금시세", href: "/calculators/gold-price", icon: "🪙", tag: "투자" },

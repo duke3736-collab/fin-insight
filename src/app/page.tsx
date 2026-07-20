@@ -164,6 +164,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/realty-brokerage-fee" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-amber-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-amber-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-amber-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🏠
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-amber-600 transition-colors">부동산 중개수수료(복비) 계산기</h3>
+            <p className="text-sm text-slate-500">
+              매매·전세·월세(환산보증금), 오피스텔, 상가 법정 상한 요율 및 부가세(10%) 계산
+            </p>
+          </Link>
+
           <Link href="/calculators/real-estate-tax" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏠
