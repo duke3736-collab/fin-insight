@@ -241,10 +241,10 @@ export default function DsrCalculatorPage() {
         <div className="absolute -right-12 -bottom-12 w-56 h-56 bg-white/10 rounded-full blur-2xl"></div>
         <div className="relative z-10">
           <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold text-indigo-100 mb-3">
-            2026년 최신 3단계 스트레스 DSR 규제 완벽 적용
+            최신 3단계 스트레스 DSR 규제 완벽 적용
           </span>
           <h1 className="text-2xl md:text-4xl font-extrabold mb-3 leading-tight">
-            📊 2026년 DSR & 대출한도 계산기
+            📊 DSR & 대출한도 계산기
           </h1>
           <p className="text-indigo-100 text-sm md:text-base max-w-2xl leading-relaxed">
             나의 연소득과 기존 대출 원리금을 입력하여 <strong>DSR 비율(40%/50% 한도)</strong>과 
@@ -671,7 +671,7 @@ export default function DsrCalculatorPage() {
       <div className="bg-white rounded-3xl p-6 md:p-10 border border-slate-200 shadow-sm space-y-8">
         <div>
           <h2 className="text-xl md:text-2xl font-black text-slate-800 mb-4 flex items-center gap-2">
-            📖 2026년 DSR(총부채원리금상환비율) 완벽 이해 가이드
+            📖 DSR(총부채원리금상환비율) 완벽 이해 가이드
           </h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-6">
             DSR은 대출자의 <strong>모든 금융회사 대출 원리금 상환액을 연 소득으로 나눈 비율</strong>입니다. 소득 대비 대출 상환액 비율을 일정 수준으로 제한하여 과도한 부채 위험을 방지합니다.
@@ -736,7 +736,7 @@ export default function DsrCalculatorPage() {
               href="/calculators/property-tax"
               className="px-3 py-2 bg-blue-50 text-blue-700 text-xs font-bold rounded-xl hover:bg-blue-100 transition-colors"
             >
-              🏢 2026년 재산세 계산기
+              🏢 재산세 계산기
             </Link>
             <Link
               href="/calculators/real-estate-tax"

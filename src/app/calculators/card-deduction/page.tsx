@@ -160,10 +160,10 @@ export default function CardDeductionCalculatorPage() {
         <div className="absolute -right-12 -bottom-12 w-56 h-56 bg-white/10 rounded-full blur-2xl"></div>
         <div className="relative z-10">
           <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold text-indigo-100 mb-3">
-            2026년 최신 연말정산 개정 세법 완벽 반영
+            최신 연말정산 개정 세법 완벽 반영
           </span>
           <h1 className="text-2xl md:text-4xl font-extrabold mb-3 leading-tight">
-            💳 2026년 연말정산 카드·현금 소득공제 계산기
+            💳 연말정산 카드·현금 소득공제 계산기
           </h1>
           <p className="text-indigo-100 text-sm md:text-base max-w-2xl leading-relaxed">
             총급여액과 수단별(신용카드, 체크카드, 현금영수증, 전통시장, 대중교통) 연간 지출액을 입력하여 
@@ -479,7 +479,7 @@ export default function CardDeductionCalculatorPage() {
               href="/calculators/salary"
               className="px-3 py-2 bg-indigo-50 text-indigo-700 text-xs font-bold rounded-xl hover:bg-indigo-100 transition-colors"
             >
-              💸 2026년 연봉 실수령액 계산기
+              💸 연봉 실수령액 계산기
             </Link>
             <Link
               href="/calculators/isa"

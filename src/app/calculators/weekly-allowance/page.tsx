@@ -83,10 +83,10 @@ export default function WeeklyAllowanceCalculatorPage() {
         <div className="absolute -right-12 -bottom-12 w-56 h-56 bg-white/10 rounded-full blur-2xl"></div>
         <div className="relative z-10">
           <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold text-teal-100 mb-3">
-            2026년 최저임금 및 근로기준법 제55조 반영
+            최저임금 및 근로기준법 제55조 반영
           </span>
           <h1 className="text-2xl md:text-4xl font-extrabold mb-3 leading-tight">
-            ⏱️ 2026년 주휴수당 자동 계산기
+            ⏱️ 주휴수당 자동 계산기
           </h1>
           <p className="text-teal-100 text-sm md:text-base max-w-2xl leading-relaxed">
             시급과 주간 근로시간을 입력하시면 <strong>주휴시간</strong>, <strong>예상 주휴수당</strong>, 
@@ -382,7 +382,7 @@ export default function WeeklyAllowanceCalculatorPage() {
               href="/calculators/salary"
               className="px-3 py-2 bg-emerald-50 text-emerald-700 text-xs font-bold rounded-xl hover:bg-emerald-100 transition-colors"
             >
-              💸 2026년 연봉 실수령액 계산기
+              💸 연봉 실수령액 계산기
             </Link>
             <Link
               href="/calculators/part-time-salary"

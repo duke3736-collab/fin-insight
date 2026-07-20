@@ -314,10 +314,10 @@ export default function PropertyTaxCalculatorPage() {
         <div className="absolute -right-12 -bottom-12 w-56 h-56 bg-white/10 rounded-full blur-2xl"></div>
         <div className="relative z-10">
           <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold text-blue-100 mb-3">
-            2026년 최신 지방세법 개정안 반영
+            최신 지방세법 개정안 반영
           </span>
           <h1 className="text-2xl md:text-4xl font-extrabold mb-3 leading-tight">
-            🏢 2026년 재산세 자동 계산기
+            🏢 재산세 자동 계산기
           </h1>
           <p className="text-blue-100 text-sm md:text-base max-w-2xl leading-relaxed">
             주택, 건물, 토지의 공시가격(시가표준액)을 입력하시면 <strong>1세대 1주택자 특례 세률</strong>, 
@@ -672,7 +672,7 @@ export default function PropertyTaxCalculatorPage() {
       <div className="bg-white rounded-3xl p-6 md:p-10 border border-slate-200 shadow-sm space-y-8">
         <div>
           <h2 className="text-xl md:text-2xl font-black text-slate-800 mb-4 flex items-center gap-2">
-            💡 2026년 재산세 부과 기준 및 완벽 계산 가이드
+            💡 재산세 부과 기준 및 완벽 계산 가이드
           </h2>
           <p className="text-slate-600 text-sm leading-relaxed mb-6">
             재산세는 매년 <strong>6월 1일(과세기준일)</strong> 기준 부동산(주택, 토지, 건물 등)을 소유하고 있는 사람에게 부과되는 대표적인 지방세입니다. 6월 1일 당일 소유권을 가지고 있는 경우 1년 치 재산세를 납부할 의무가 생깁니다.

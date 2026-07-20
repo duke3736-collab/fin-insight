@@ -125,7 +125,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏢
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">2026년 재산세 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">재산세 계산기</h3>
             <p className="text-sm text-slate-500">
               주택·건물·토지 1주택자 특례 세율(43~45%), 세부담상한선 및 7월/9월 분납 일정 계산
             </p>
@@ -136,7 +136,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               📊
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">2026년 DSR & 대출 한도 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">DSR & 대출 한도 계산기</h3>
             <p className="text-sm text-slate-500">
               3단계 스트레스 DSR(1.5%p), 1금융권(40%)/2금융권(50%) 한도 및 추가 대출 가능액 계산
             </p>
@@ -147,7 +147,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏠
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors">2026년 LTV & 주담대 한도 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors">LTV & 주담대 한도 계산기</h3>
             <p className="text-sm text-slate-500">
               규제/비규제지역, 생애최초(80%), 방공제(소액임차/MCI/MCG) 차감 후 최종 주담대 한도 계산
             </p>
@@ -158,7 +158,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏦
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">2026년 근저당 설정비용 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">근저당 설정비용 계산기</h3>
             <p className="text-sm text-slate-500">
               채권최고액(120%), 은행 부담 비용 vs 차주 부담 비용(인지세 50% + 국민주택채권 할인) 계산
             </p>
@@ -169,7 +169,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               📈
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-cyan-600 transition-colors">2026년 DTI & 주담대 상환비율 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-cyan-600 transition-colors">DTI & 주담대 상환비율 계산기</h3>
             <p className="text-sm text-slate-500">
               규제지역(50%)/비규제지역(60%), 주담대 원리금 및 기타대출 이자 반영 한도 산출
             </p>
@@ -319,7 +319,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-teal-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               ⏱️
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-teal-600 transition-colors">2026년 주휴수당 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-teal-600 transition-colors">주휴수당 계산기</h3>
             <p className="text-sm text-slate-500">
               주 15시간 이상 알바/직장인 주휴시간, 주휴수당, 주급/월급 총액 및 실효시급 자동 산출
             </p>
@@ -330,7 +330,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               💳
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">2026년 카드·현금 영수증 소득공제 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">카드·현금 영수증 소득공제 계산기</h3>
             <p className="text-sm text-slate-500">
               총급여 25% 문턱 조건, 신용(15%)/체크(30%)/전통시장/대중교통 한도 및 환급 절세액 산출
             </p>
@@ -351,7 +351,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               💰
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">2026년 연봉 실수령액 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">연봉 실수령액 계산기</h3>
             <p className="text-sm text-slate-500">
               2026년 기준 4대보험, 소득세 완벽 반영 및 직관적인 공제 비율 제공
             </p>
@@ -362,7 +362,7 @@ export default async function Home() {
             <div className="w-12 h-12 bg-pink-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               ⏰
             </div>
-            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-pink-600 transition-colors">2026년 알바 급여 계산기</h3>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-pink-600 transition-colors">알바 급여 계산기</h3>
             <p className="text-sm text-slate-500">
               최저시급 반영, 주휴수당, 세금, 수습기간 공제까지 한 번에 완벽 계산
             </p>

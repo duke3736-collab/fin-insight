@@ -120,10 +120,10 @@ export default function MortgageCostCalculatorPage() {
         <div className="absolute -right-12 -bottom-12 w-56 h-56 bg-white/10 rounded-full blur-2xl"></div>
         <div className="relative z-10">
           <span className="inline-block px-3 py-1 bg-white/20 backdrop-blur-md rounded-full text-xs font-bold text-indigo-100 mb-3">
-            2026년 대법원 및 공정거래위원회 규정 반영
+            대법원 및 공정거래위원회 규정 반영
           </span>
           <h1 className="text-2xl md:text-4xl font-extrabold mb-3 leading-tight">
-            🏦 2026년 근저당 설정비용 계산기
+            🏦 근저당 설정비용 계산기
           </h1>
           <p className="text-indigo-100 text-sm md:text-base max-w-2xl leading-relaxed">
             주택담보대출 금액을 입력하시면 <strong>채권최고액(120%)</strong>, <strong>금융기관 부담 비용</strong>, 
@@ -409,13 +409,13 @@ export default function MortgageCostCalculatorPage() {
               href="/calculators/ltv"
               className="px-3 py-2 bg-emerald-50 text-emerald-700 text-xs font-bold rounded-xl hover:bg-emerald-100 transition-colors"
             >
-              🏠 2026년 LTV & 주담대 한도 계산기
+              🏠 LTV & 주담대 한도 계산기
             </Link>
             <Link
               href="/calculators/dsr"
               className="px-3 py-2 bg-indigo-50 text-indigo-700 text-xs font-bold rounded-xl hover:bg-indigo-100 transition-colors"
             >
-              📊 2026년 DSR & 대출 한도 계산기
+              📊 DSR & 대출 한도 계산기
             </Link>
             <Link
               href="/calculators/real-estate-tax"
