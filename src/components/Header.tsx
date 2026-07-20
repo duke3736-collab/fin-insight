@@ -27,6 +27,7 @@ const CALCULATORS = [
   { name: "실업급여 모의계산기", href: "/calculators/unemployment-benefit", icon: "💸", tag: "생활", badge: "NEW" },
   { name: "기초생활수급자 소득인정액 모의계산기", href: "/calculators/basic-livelihood", icon: "🏠", tag: "생활", badge: "NEW" },
   { name: "2026년 연봉 실수령액 계산기", href: "/calculators/salary", icon: "💸", tag: "생활" },
+  { name: "2026년 카드·현금 영수증 소득공제 계산기", href: "/calculators/card-deduction", icon: "💳", tag: "생활", badge: "NEW" },
   { name: "2026년 알바 급여 계산기", href: "/calculators/part-time-salary", icon: "⏰", tag: "생활", badge: "NEW" },
   { name: "2026년 주휴수당 계산기", href: "/calculators/weekly-allowance", icon: "⏱️", tag: "생활", badge: "NEW" },
   { name: "국민연금 감액기준 계산기", href: "/calculators/pension-reduction", icon: "👴", tag: "생활", badge: "HOT" },

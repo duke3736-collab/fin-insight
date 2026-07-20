@@ -314,6 +314,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/card-deduction" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-indigo-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-indigo-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-indigo-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              💳
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-indigo-600 transition-colors">2026년 카드·현금 영수증 소득공제 계산기</h3>
+            <p className="text-sm text-slate-500">
+              총급여 25% 문턱 조건, 신용(15%)/체크(30%)/전통시장/대중교통 한도 및 환급 절세액 산출
+            </p>
+          </Link>
+
           <Link href="/calculators/basic-livelihood" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
             <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
