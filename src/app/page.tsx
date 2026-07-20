@@ -153,6 +153,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/dti" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-cyan-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-cyan-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              📈
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-cyan-600 transition-colors">2026년 DTI & 주담대 상환비율 계산기</h3>
+            <p className="text-sm text-slate-500">
+              규제지역(50%)/비규제지역(60%), 주담대 원리금 및 기타대출 이자 반영 한도 산출
+            </p>
+          </Link>
+
           <Link href="/calculators/real-estate-tax" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all">
             <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
               🏠
