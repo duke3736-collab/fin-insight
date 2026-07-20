@@ -153,6 +153,17 @@ export default async function Home() {
             </p>
           </Link>
 
+          <Link href="/calculators/mortgage-cost" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-blue-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              🏦
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">2026년 근저당 설정비용 계산기</h3>
+            <p className="text-sm text-slate-500">
+              채권최고액(120%), 은행 부담 비용 vs 차주 부담 비용(인지세 50% + 국민주택채권 할인) 계산
+            </p>
+          </Link>
+
           <Link href="/calculators/dti" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-cyan-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-cyan-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
             <div className="w-12 h-12 bg-cyan-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
