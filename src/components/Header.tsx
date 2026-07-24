@@ -22,6 +22,7 @@ const CALCULATORS = [
   { name: "실시간 금시세", href: "/calculators/gold-price", icon: "🪙", tag: "투자" },
   { name: "수익률 인증샷 메이커", href: "/calculators/yield-snapshot", icon: "📸", tag: "투자" },
   // 생활 계산기
+  { name: "근로장려금 & 자녀장려금 모의계산기", href: "/calculators/earned-income-tax-credit", icon: "💰", tag: "생활", badge: "NEW" },
   { name: "에어컨 전기세 계산기", href: "/calculators/air-conditioner-bill", icon: "🔌", tag: "생활", badge: "HOT" },
   { name: "예금 적금 최고 금리 비교 계산기", href: "/calculators/deposit", icon: "💰", tag: "생활" },
   { name: "퇴직금 계산기 및 IRP 세금 비교", href: "/calculators/severance", icon: "💼", tag: "생활" },

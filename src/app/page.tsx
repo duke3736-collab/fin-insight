@@ -272,6 +272,17 @@ export default async function Home() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
+          <Link href="/calculators/earned-income-tax-credit" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-emerald-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
+            <div className="absolute top-0 right-0 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">NEW</div>
+            <div className="w-12 h-12 bg-emerald-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
+              💰
+            </div>
+            <h3 className="text-lg font-bold text-slate-800 mb-2 group-hover:text-emerald-600 transition-colors">2026 근로장려금 & 자녀장려금 계산기</h3>
+            <p className="text-sm text-slate-500">
+              국세청 2026년 최신 기준 반영! 가구 유형(단독/홑벌이/맞벌이), 총소득 및 재산 요건에 따른 예상 지급액 산출
+            </p>
+          </Link>
+
           <Link href="/calculators/air-conditioner-bill" className="group flex flex-col p-6 bg-white rounded-2xl border border-slate-200 hover:border-blue-500 hover:shadow-xl hover:-translate-y-1 transition-all relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-blue-500 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg">HOT</div>
             <div className="w-12 h-12 bg-blue-50 rounded-xl flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
